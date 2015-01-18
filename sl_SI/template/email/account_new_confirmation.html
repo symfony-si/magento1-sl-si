@@ -1,0 +1,52 @@
+<!--@subject Account confirmation for {{var customer.name}} @-->
+<!--@vars
+{"store url=\"\"":"Store Url",
+"var logo_url":"Email Logo Image Url",
+"var logo_alt":"Email Logo Image Alt",
+"store url=\"customer/account/\"":"Customer Account Url",
+"htmlescape var=$customer.name":"Customer Name",
+"var customer.email":"Customer Email",
+"store url=\"customer/account/confirm/\" _query_id=$customer.id _query_key=$customer.confirmation _query_back_url=$back_url":"Confirmation Url",
+"htmlescape var=$customer.password":"Customer password"}
+@-->
+
+<!--@styles
+@-->
+
+{{template config_path="design/email/header"}}
+{{inlinecss file="email-inline.css"}}
+
+<table cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td>
+            <table cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td class="action-content">
+                        <h1>{{htmlescape var=$customer.name}},</h1>
+                        <p>Vaša e-pošta {{var customer.email}} mora biti potrjena pred uporabo za prijavo v našo trgovino.</p>
+                        <p class="highlighted-text">
+                            Uporabite sledeče vrednosti, ko boste vprašani za prijavo:<br/>
+                            <strong>E-pošta:</strong> {{var customer.email}}<br/>
+                            <strong>Geslo:</strong> {{htmlescape var=$customer.password}}
+                        </p>
+                        <p>Kliknite tu, da potrdite vašo e-pošto in se takoj prijavite (povezava je veljavna samo enkrat):</p>
+                        <table cellspacing="0" cellpadding="0" class="action-button" >
+                            <tr>
+                                <td>
+                                    <a href="{{store url="customer/account/confirm/" _query_id=$customer.id _query_key=$customer.confirmation _query_back_url=$back_url}}"><span>Potrdite račun</span></a>
+                                </td>
+                            </tr>
+                        </table>
+                        <p>
+                            Če imate kakršnakoli vprašanja, vas prosimo, da nas kontaktirate na
+                            <a href="mailto:{{var store_email}}">{{var store_email}}</a>
+                            {{depend store_phone}} ali preko telefona <a href="tel:{{var phone}}">{{var store_phone}}</a>{{/depend}}.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+{{template config_path="design/email/footer"}}

@@ -1,0 +1,39 @@
+<!--@subject Welcome, {{var customer.name}}! @-->
+<!--@vars
+{"store url=\"\"":"Store Url",
+"var logo_url":"Email Logo Image Url",
+"var logo_alt":"Email Logo Image Alt",
+"htmlescape var=$customer.name":"Customer Name",
+"store url=\"customer/account/\"":"Customer Account Url"}
+@-->
+
+<!--@styles
+@-->
+
+{{template config_path="design/email/header"}}
+{{inlinecss file="email-inline.css"}}
+
+<table cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td class="action-content">
+            <h1>{{htmlescape var=$customer.name}},</h1>
+            <p>Da se prijavite, ko obiščete našo stran, samo kliknite <a href="{{store url="customer/account/"}}">Prijava</a> ali <a href="{{store url="customer/account/"}}">Moj račun</a> na vrhu vsake strani in nato vpišite naslov vaše e-pošte in geslo.</p>
+            <p>Ko se prijavljate v vaš račun, boste lahko naredili sledeče:</p>
+            <ul>
+                <li>Nadaljevali preko blagajne hitreje, ko izvajate nakup</li>
+                <li>Preverili status naročil</li>
+                <li>Pogledali pretekla naročila</li>
+                <li>Naredili spremembe za informacije vašega računa</li>
+                <li>Spremenili vaše geslo</li>
+                <li>Shranili alternativni naslov (za dostavo na več članov družine in prijateljev!)</li>
+            </ul>
+            <p>
+                Če imate kakršnakoli vprašanja, vas prosimo, da nas kontaktirate na
+                <a href="mailto:{{var store_email}}">{{var store_email}}</a>
+                {{depend store_phone}} ali po telefonu <a href="tel:{{var phone}}">{{var store_phone}}</a>{{/depend}}.
+            </p>
+        </td>
+    </tr>
+</table>
+
+{{template config_path="design/email/footer"}}
