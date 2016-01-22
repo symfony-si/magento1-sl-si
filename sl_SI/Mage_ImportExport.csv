@@ -36,6 +36,7 @@
 "Error in data structure: behaviors are mixed","Napaka v strukturi podatkov: obnašanja so mešana"
 "Error in data structure: entity codes are mixed","Napaka v strukturi podatkov: kode entitete so mešane"
 "Errors limit (%d) reached. Please fix errors and re-upload file","Omejitev napak (%d) dosežena. Prosimo, popravite napake in ponovno naložite datoteko"
+"Escape CSV fields","Ubežanje CSV polje"
 "Export","Izvoz"
 "Export File Format","Format datoteke izvoza"
 "Export Settings","Nastavitve izvoza"
