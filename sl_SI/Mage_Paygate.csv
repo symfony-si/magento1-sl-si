@@ -14,7 +14,7 @@
 "Credit Card Verification","preverjanje kreditne kartice"
 "Credit Card: xxxx-%s","Kreditna kartica: xxxx-%s"
 "Debug","Razhroščevanje"
-"Email Customer","E-pošta stranke"
+"Email Customer","E-pošta kupcu"
 "Enabled","Omogočeno"
 "Error in payment gateway.","Napaka pri plačilnem prehodu."
 "Gateway actions are locked because the gateway cannot complete one or more of the transactions. Please log in to your Authorize.Net account to manually resolve the issue(s).","Akcije prehoda so zaklenjene, ker prehod ne more dokončati ene ali več transakcij. Prosimo, prijavite se v vaš račun Authorize.Net za ročno rešite težavo(e)."

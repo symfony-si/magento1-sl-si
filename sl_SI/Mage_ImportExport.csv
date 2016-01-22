@@ -19,7 +19,7 @@
 "Column names have duplicates","Imena stolpcev imajo duplikate"
 "Column names is empty or is not an array","Imena stolpcev so prazna ali pa niso polje"
 "Column names: ""%s"" are invalid","Imena stolpcev: ""%s"" so neveljavna"
-"Customers","Stranke"
+"Customers","Kupci"
 "Data is invalid or file is not uploaded","Podatki niso veljavni ali pa datoteka ni naložena"
 "Delete Entities","Izbrišite entitete"
 "Destination directory is not writable","Direktorij destinacije ni zapisljiv"
