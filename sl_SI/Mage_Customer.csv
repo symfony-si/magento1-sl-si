@@ -176,7 +176,7 @@
 "If you believe this is an error, please contact us at %s","Če mislite, da je to napaka, prosimo, da nas kontaktirate na %s"
 "If you have an account with us, please log in.","Če imate pri nas račun, se, prosimo, prijavite."
 "Invalid attribute option specified for attribute %s (%s), skipping the record.","Določena neveljavna možnost atributa za atribut %s (%s), vnos je preskočen."
-"Invalid attribute set specified, skipping the record.","Določen neveljaven skupek atrubutov, vnos preskočen."
+"Invalid attribute set specified, skipping the record.","Določen neveljaven nabor atributov, vnos preskočen."
 "Invalid billing address for (%s)","Neveljaven naslov za izstavitev računa za (%s)"
 "Invalid current password","Neveljavno trenutno geslo"
 "Invalid customer data","Neveljavni podatki kupca"
