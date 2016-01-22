@@ -5,10 +5,7 @@ $rootPath = realpath('sl_SI');
 
 // Initialize archive object
 $zip = new ZipArchive;
-$zip->open('sl_SI.zip', ZipArchive::CREATE);
-
-// Initialize empty "delete list"
-$filesToDelete = array();
+$zip->open('sl_SI.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);
 
 // Create recursive directory iterator
 $files = new RecursiveIteratorIterator(
@@ -17,22 +14,15 @@ $files = new RecursiveIteratorIterator(
 );
 
 foreach ($files as $name => $file) {
-    // Get real path for current file
-    $filePath = $file->getRealPath();
+    if (!$file->isDir()) {
+        // Get real path for current file
+        $filePath = $file->getRealPath();
+        $relativePath = substr($filePath, strlen($rootPath) + 1);
 
-    // Add current file to archive
-    $zip->addFile($filePath);
-
-    // Add current file to "delete list" (if need)
-    if ($file->getFilename() != 'important.txt') {
-        $filesToDelete[] = $filePath;
+        // Add current file to archive
+        $zip->addFile($filePath, $relativePath);
     }
 }
 
 // Zip archive will be created only after closing object
 $zip->close();
-
-// Delete all files from "delete list"
-foreach ($filesToDelete as $file) {
-    unlink($file);
-}
