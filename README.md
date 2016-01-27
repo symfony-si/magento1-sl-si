@@ -1,6 +1,6 @@
 # Magento Slovenian translations
 
-![Progress](http://progressed.io/bar/91?title=completed)
+![Progress](http://progressed.io/bar/100?title=completed)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 
