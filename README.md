@@ -13,16 +13,6 @@
 * [Magento 2](#magento-2)
 * [Contributing and license](#contributing-and-license)
 
-## TODO
-
-* Fix `checkout` to `blagajna`
-* Refactor files (because of tinymce translations, Package files etc)
-* Improve tinymce translation
-* langs/si.js
-* plugins
-* Provide Magento Connect extension
-* Some labels in administration are not translated (tier price, special price when adding new product etc) - check
-
 ### About
 
 Slovenian (Slovenia) open source language pack for [Magento](https://magento.com/) Community
