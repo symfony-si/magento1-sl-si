@@ -22,8 +22,8 @@ extension's source code is located on [GitHub](https://github.com/symfony-si/mag
 
 Translations follow Slovenian grammatical rules from [Lugos](https://wiki.lugos.si/slovenjenje:pravila).
 
-Supported Magento versions: Magento CE `1.9.2.3`, `1.9.2.2`, `1.9.2.1`, `1.9.2.0`,
-`1.9.1.1` and `1.9.1.0`.
+Supported Magento versions: Magento CE `1.9.2.4`, `1.9.2.3`, `1.9.2.2`, `1.9.2.1`,
+`1.9.2.0`, `1.9.1.1` and `1.9.1.0`.
 
 In case you find an issue with this extension, please
 [open a ticket](https://github.com/symfony-si/magento-sl_SI/issues).
