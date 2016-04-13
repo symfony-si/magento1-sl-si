@@ -1,3 +1,7 @@
+#Adminhtml und Default Theme Translation
+app/design/adminhtml/default/default/locale/sl_SI/translate.csv	app/design/adminhtml/default/default/locale/sl_SI/translate.csv
+app/design/frontend/default/default/locale/sl_SI/translate.csv	app/design/frontend/default/default/locale/sl_SI/translate.csv
+
 # Core translations
 
 app/locale/sl_SI/Mage_Adminhtml.csv	app/locale/sl_SI/Mage_Adminhtml.csv
