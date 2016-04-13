@@ -39,6 +39,16 @@ which is the recommended method for installing extensions to Magento 1.x. Copy
 extension key from Magento Connect and use it in Magento administration at
 *System->Magento Connect->Magento Connect Manager*.
 
+**Modman**
+
+You can use [Modman](https://github.com/colinmollenhour/modman) to modularize this
+extension. Inside Magento Store folder run:
+
+```bash
+$ modman init
+$ modman clone git://github.com/symfony-si/magento-sl_SI.git
+```
+
 **Custom installation**
 
 1. Download the [ZIP archive](https://github.com/symfony-si/magento-sl_SI/archive/master.zip)
