@@ -111,3 +111,23 @@ app/locale/sl_SI/template/email/product_stock_alert.html	app/locale/sl_SI/templa
 app/locale/sl_SI/template/email/sitemap_generate_warning.html	app/locale/sl_SI/template/email/sitemap_generate_warning.html
 app/locale/sl_SI/template/email/token.html	app/locale/sl_SI/template/email/token.html
 app/locale/sl_SI/template/email/wishlist_share.html	app/locale/sl_SI/template/email/wishlist_share.html
+
+
+# TinyMCE
+js/tiny_mce/langs/sl.js	js/tiny_mce/langs/sl.js
+js/tiny_mce/plugins/advhr/langs/sl_dlg.js	js/tiny_mce/plugins/advhr/langs/sl_dlg.js
+js/tiny_mce/plugins/advimage/langs/sl_dlg.js	js/tiny_mce/plugins/advimage/langs/sl_dlg.js
+js/tiny_mce/plugins/advlink/langs/sl_dlg.js	js/tiny_mce/plugins/advlink/langs/sl_dlg.js
+js/tiny_mce/plugins/autosave/langs/sl.js	js/tiny_mce/plugins/autosave/langs/sl.js
+js/tiny_mce/plugins/emotions/langs/sl_dlg.js	js/tiny_mce/plugins/emotions/langs/sl_dlg.js
+js/tiny_mce/plugins/fullpage/langs/sl_dlg.js	js/tiny_mce/plugins/fullpage/langs/sl_dlg.js
+js/tiny_mce/plugins/media/langs/sl_dlg.js	js/tiny_mce/plugins/media/langs/sl_dlg.js
+js/tiny_mce/plugins/paste/langs/sl_dlg.js	js/tiny_mce/plugins/paste/langs/sl_dlg.js
+js/tiny_mce/plugins/searchreplace/langs/sl_dlg.js	js/tiny_mce/plugins/searchreplace/langs/sl_dlg.js
+js/tiny_mce/plugins/style/langs/sl_dlg.js	js/tiny_mce/plugins/style/langs/sl_dlg.js
+js/tiny_mce/plugins/table/langs/sl_dlg.js	js/tiny_mce/plugins/table/langs/sl_dlg.js
+js/tiny_mce/plugins/template/langs/sl_dlg.js	js/tiny_mce/plugins/template/langs/sl_dlg.js
+js/tiny_mce/plugins/xhtmlxtras/langs/sl_dlg.js	js/tiny_mce/plugins/xhtmlxtras/langs/sl_dlg.js
+js/tiny_mce/themes/advanced/langs/sl_dlg.js	js/tiny_mce/themes/advanced/langs/sl_dlg.js
+js/tiny_mce/themes/advanced/langs/sl.js	js/tiny_mce/themes/advanced/langs/sl.js
+js/tiny_mce/themes/simple/langs/sl.js	js/tiny_mce/themes/simple/langs/sl.js
