@@ -1,0 +1,14 @@
+{
+    "name": "symfony-si/magento1-sl_SI",
+    "type": "magento-module",
+    "license": "MIT",
+    "description": "Slovenian Community Translation",
+    "authors": [
+        {
+            "name": "Peter Kokot"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

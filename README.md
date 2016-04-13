@@ -1,4 +1,4 @@
-# Magento Slovenian translations
+# Magento 1 Slovenian translations
 
 ![Progress](http://progressed.io/bar/100?title=completed)
 [![Magento Connect Extension](https://img.shields.io/badge/Magento-Connnect-bc6538.svg)](https://www.magentocommerce.com/magento-connect/)
@@ -18,7 +18,7 @@
 Slovenian (Slovenia) open source language pack for [Magento](https://magento.com/) Community
 Edition 1.x. Translations include store's front end, administration, emails and
 Tiny MCE editor which is used in some administration forms. Development of the
-extension's source code is located on [GitHub](https://github.com/symfony-si/magento-sl_SI).
+extension's source code is located on [GitHub](https://github.com/symfony-si/magento1-sl_SI).
 
 Translations follow Slovenian grammatical rules from [Lugos](https://wiki.lugos.si/slovenjenje:pravila).
 
@@ -26,7 +26,7 @@ Supported Magento versions: Magento CE `1.9.2.4`, `1.9.2.3`, `1.9.2.2`, `1.9.2.1
 `1.9.2.0`, `1.9.1.1` and `1.9.1.0`.
 
 In case you find an issue with this extension, please
-[open a ticket](https://github.com/symfony-si/magento-sl_SI/issues).
+[open a ticket](https://github.com/symfony-si/magento1-sl_SI/issues).
 
 ### Installation
 
@@ -46,16 +46,26 @@ extension. Inside Magento Store folder run:
 
 ```bash
 $ modman init
-$ modman clone git://github.com/symfony-si/magento-sl_SI.git
+$ modman clone git://github.com/symfony-si/magento1-sl_SI.git
 ```
 
 **Custom installation**
 
-1. Download the [ZIP archive](https://github.com/symfony-si/magento-sl_SI/archive/master.zip)
+1. Download the [ZIP archive](https://github.com/symfony-si/magento1-sl_SI/archive/master.zip)
 and extract it locally.
 2. Copy folder sl_SI to your Magento store at `app/locale/sl_SI/`.
 3. Enable Slovenian language in Magento admin at *System->Configuration->Locale Options->Locale*.
 4. Flush the Magento cache, log out and login again to see changes.
+
+**Composer**
+
+For more info about using [Composer](https://getcomposer.org) with Magento 1, check
+[packages.firegento.com](http://packages.firegento.com/). To add extension run
+the following in command line:
+
+```bash
+$ composer require symfony-si/magento1-sl_SI
+```
 
 ### FAQ
 
@@ -85,7 +95,7 @@ translating Magento 2 and more information please refer to
 ### Contributing and license
 
 Contributions are very appreciated and welcome. Please check the
-[contributing](https://github.com/symfony-si/magento-sl_SI/blob/master/CONTRIBUTING.md)
+[contributing](https://github.com/symfony-si/magento1-sl_SI/blob/master/CONTRIBUTING.md)
 document for guidelines and documentation on how to use this source code.
 
-Repository is released under the [MIT license](https://github.com/symfony-si/magento-sl_SI/blob/master/LICENSE).
+Repository is released under the [MIT license](https://github.com/symfony-si/magento1-sl_SI/blob/master/LICENSE).

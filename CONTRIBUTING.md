@@ -1,16 +1,16 @@
 # Contribution Guidelines
 
 You are most welcome to suggest improvements, report
-[issues](https://github.com/symfony-si/magento-sl_SI/issues), or send pull
+[issues](https://github.com/symfony-si/magento1-sl_SI/issues), or send pull
 requests:
 
 * Fork this repository over GitHub
 * Set up your local repository
 
   ```bash
-$ git clone git@github.com:your_username/magento-sl_SI
-$ cd magento-sl_SI
-$ git remote add upstream git://github.com/symfony-si/magento-sl_SI
+$ git clone git@github.com:your_username/magento1-sl_SI
+$ cd magento1-sl_SI
+$ git remote add upstream git://github.com/symfony-si/magento1-sl_SI
 $ git config branch.master.remote upstream
 ```
 * Make changes and send pull request
