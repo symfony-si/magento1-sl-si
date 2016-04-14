@@ -2,7 +2,7 @@
 
 ![Progress](http://progressed.io/bar/100?title=completed)
 [![Magento Connect Extension](https://img.shields.io/badge/Magento-Connnect-bc6538.svg)](https://www.magentocommerce.com/magento-connect/)
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Open Software License v. 3.0](https://img.shields.io/badge/License-OSL--3.0-blue.svg)](LICENSE)
 
 ## Index
 
@@ -107,6 +107,6 @@ translating Magento 2 and more information please refer to
 
 Contributions are very appreciated and welcome. Please check the
 [contributing](https://github.com/symfony-si/magento1-sl-si/blob/master/CONTRIBUTING.md)
-document for guidelines and documentation on how to use this source code.
+document for more info on how to use this source code.
 
-Repository is released under the [MIT license](https://github.com/symfony-si/magento1-sl-si/blob/master/LICENSE).
+This repository is released under the [Open Software License v. 3.0](https://github.com/symfony-si/magento1-sl-si/blob/master/LICENSE).
