@@ -75,6 +75,17 @@ Go to *System->Configuration->General->Locale Options* and set *Locale* to
 *English (United States)*. Then in the dropdown on the left at
 *Current Configuration Scope*, select your website and set *Locale* to *Slovenian*.
 
+**How to use TinyMCE editor translations?**
+
+TinyMCE editor in Magento 1 is by default using English language. This extension
+provides also Slovenian translations for that. The following files/folders enable
+TinyMCE Slovenian translation:
+
+* `app/code/community/Slovenian/LocalePackSl/etc/config.xml` - Module configuration
+* `app/design/adminhtml/default/default/layout/slovenian/localepacksl.xml` - Layout file
+* `js/slovenian/setup.js` - Adjusted TinyMCE setup
+* `js/tiny_mce/*` - Includes translation files
+
 ### Further reading
 
 Magento 1.x manages its core translations through a series of CSV files located

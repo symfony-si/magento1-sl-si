@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category Slovenian
+ * @package Slovenian_LocalePackSl
+ * @link https://github.com/symfony-si/magento1-sl-si Symfony Slovenia Community
+ * @version 1.0.0
+ * @license http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
+ */
+ -->
+<config>
+    <modules>
+        <Slovenian_LocalePackSl>
+            <version>1.0.0</version>
+        </Slovenian_LocalePackSl>
+    </modules>
+
+    <adminhtml>
+        <layout>
+            <updates>
+                <slovenian_localepacksl>
+                    <file>slovenian/localepacksl.xml</file>
+                </slovenian_localepacksl>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>
