@@ -22,6 +22,7 @@ All notable changes to this project will be documented in this file. This projec
 * Generator for Magento Connect HTML readme file
 * Composer installation
 * OSL-3.0 License https://opensource.org/licenses/OSL-3.0)
+* Improved documentation
 
 
 ## [0.9.0] - 2016-02-19

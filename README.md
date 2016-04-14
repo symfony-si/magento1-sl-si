@@ -69,11 +69,21 @@ $ composer require symfony-si/magento1-sl-si
 
 ### FAQ
 
+**Why are product attributes (Color, Weight, Tier Price, etc.) not translated?**
+
+All products have attributes assigned. They are set when you're setting up the
+store views or adding the products. You can localize attributes names at
+`Catalog->Attributes->Manage Attributes`. Open the wanted attribute, switch
+to `Manage Label / Options` tab and translate attribute titles as needed. Follow
+the [documentation](http://merch.docs.magento.com/ce/user_guide/catalog/product-translate.html)
+for more info.
+
 **How to leave Magento admin interface in English?**
 
-Go to *System->Configuration->General->Locale Options* and set *Locale* to
-*English (United States)*. Then in the dropdown on the left at
-*Current Configuration Scope*, select your website and set *Locale* to *Slovenian*.
+Go to `System->Configuration->General->Locale Options` and set `Locale` to
+`English (United States)`. Then in the dropdown on the left at
+`Current Configuration Scope`, select your website and set `Locale` to
+`slovenščina (Slovenija)`.
 
 **How to use TinyMCE editor translations?**
 
@@ -85,6 +95,7 @@ TinyMCE Slovenian translation:
 * `app/design/adminhtml/default/default/layout/slovenian/localepacksl.xml` - Layout file
 * `js/slovenian/setup.js` - Adjusted TinyMCE setup
 * `js/tiny_mce/*` - Includes translation files
+
 
 ### Further reading
 
