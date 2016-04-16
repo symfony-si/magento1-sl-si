@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file. This projec
 * ...
 
 
-## [1.0.0] - 2016-04-14
+## [1.0.0] - 2016-04-16
 
 ### Added
 

@@ -8,7 +8,7 @@ try {
         RecursiveIteratorIterator::LEAVES_ONLY
     );
 
-    $package = new PharData('Locale_Mage_community_sl_SI.tar');
+    $package = new PharData('locale_sl_si.tar');
     $includes = [
         realpath(__DIR__.'/../app'),
         realpath(__DIR__.'/../js'),
@@ -45,14 +45,14 @@ try {
     }
 
     // check if previously created archive file exists
-    if (file_exists('Locale_Mage_community_sl_SI.tgz')) {
-        unlink('Locale_Mage_community_sl_SI.tgz');
+    if (file_exists('locale_sl_si.tgz')) {
+        unlink('locale_sl_si.tgz');
     }
     // Compress .tar file to .tgz
     $package->compress(Phar::GZ, '.tgz');
-    echo "Locale_Mage_community_sl_SI.tgz created.\n";
+    echo "locale_sl_si.tgz created.\n";
     // Both files (.tar and .tgz) exist. This removes unneeded .tar file
-    unlink('Locale_Mage_community_sl_SI.tar');
+    unlink('locale_sl_si.tar');
 } catch (Exception $e) {
     echo 'Exception: '.$e;
 }
