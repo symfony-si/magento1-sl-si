@@ -1,10 +1,18 @@
-# Adminhtml and default theme translation
+# Community module file
+app/code/community/Slovenian/LocalePackSl/etc/config.xml	app/code/community/Slovenian/LocalePackSl/etc/config.xml
+
+# User Interface
+app/design/adminhtml/default/default/layout/slovenian/localepacksl.xml	app/design/adminhtml/default/default/layout/slovenian/localepacksl.xml
 app/design/adminhtml/default/default/locale/sl_SI/translate.csv	app/design/adminhtml/default/default/locale/sl_SI/translate.csv
 app/design/frontend/default/default/locale/sl_SI/translate.csv	app/design/frontend/default/default/locale/sl_SI/translate.csv
 
-# Core translations
+# Global Configuration
+app/etc/modules/Slovenian_LocalePackSl.xml	app/etc/modules/Slovenian_LocalePackSl.xml
+
+# sl_SI Locale Pack
 app/locale/sl_SI/Mage_Adminhtml.csv	app/locale/sl_SI/Mage_Adminhtml.csv
 app/locale/sl_SI/Mage_AdminNotification.csv	app/locale/sl_SI/Mage_AdminNotification.csv
+app/locale/sl_SI/Mage_AmazonPayments.csv	app/locale/sl_SI/Mage_AmazonPayments.csv
 app/locale/sl_SI/Mage_Api.csv	app/locale/sl_SI/Mage_Api.csv
 app/locale/sl_SI/Mage_Api2.csv	app/locale/sl_SI/Mage_Api2.csv
 app/locale/sl_SI/Mage_Authorizenet.csv	app/locale/sl_SI/Mage_Authorizenet.csv
@@ -113,6 +121,7 @@ app/locale/sl_SI/template/email/wishlist_share.html	app/locale/sl_SI/template/em
 
 
 # TinyMCE
+js/slovenian/setup.js	js/slovenian/setup.js
 js/tiny_mce/langs/sl.js	js/tiny_mce/langs/sl.js
 js/tiny_mce/plugins/advhr/langs/sl_dlg.js	js/tiny_mce/plugins/advhr/langs/sl_dlg.js
 js/tiny_mce/plugins/advimage/langs/sl_dlg.js	js/tiny_mce/plugins/advimage/langs/sl_dlg.js
@@ -130,9 +139,3 @@ js/tiny_mce/plugins/xhtmlxtras/langs/sl_dlg.js	js/tiny_mce/plugins/xhtmlxtras/la
 js/tiny_mce/themes/advanced/langs/sl_dlg.js	js/tiny_mce/themes/advanced/langs/sl_dlg.js
 js/tiny_mce/themes/advanced/langs/sl.js	js/tiny_mce/themes/advanced/langs/sl.js
 js/tiny_mce/themes/simple/langs/sl.js	js/tiny_mce/themes/simple/langs/sl.js
-
-# TinyMCE setup
-app/code/community/Slovenian/LocalePackSl/etc/config.xml	app/code/community/Slovenian/LocalePackSl/etc/config.xml
-app/design/adminhtml/default/default/layout/slovenian/localepacksl.xml	app/design/adminhtml/default/default/layout/slovenian/localepacksl.xml
-app/etc/modules/Slovenian_LocalePackSl.xml	app/etc/modules/Slovenian_LocalePackSl.xml
-js/slovenian/setup.js	js/slovenian/setup.js
