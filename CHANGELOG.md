@@ -23,6 +23,7 @@ All notable changes to this project will be documented in this file. This projec
 * Composer installation
 * OSL-3.0 License https://opensource.org/licenses/OSL-3.0)
 * Improved documentation
+* Package build script
 
 
 ## [0.9.0] - 2016-02-19
