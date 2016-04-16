@@ -53,7 +53,7 @@ $ modman clone git://github.com/symfony-si/magento1-sl-si.git
 
 1. Download the [ZIP archive](https://github.com/symfony-si/magento1-sl-si/archive/master.zip)
 and extract it locally.
-2. Copy folder sl_SI to your Magento store at `app/locale/sl_SI/`.
+2. Copy folders `app` and `js` to your Magento store document root.
 3. Enable Slovenian language in Magento admin at *System->Configuration->Locale Options->Locale*.
 4. Flush the Magento cache, log out and login again to see changes.
 

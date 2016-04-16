@@ -1,0 +1,58 @@
+#!/usr/bin/env php
+<?php
+
+try {
+    $dir = realpath(__DIR__.'/..');
+    $iterator = new RecursiveIteratorIterator(
+        new RecursiveDirectoryIterator($dir),
+        RecursiveIteratorIterator::LEAVES_ONLY
+    );
+
+    $package = new PharData('Locale_Mage_community_sl_SI.tar');
+    $includes = [
+        realpath(__DIR__.'/../app'),
+        realpath(__DIR__.'/../js'),
+        realpath(__DIR__.'/../package.xml'),
+    ];
+
+    // replace md5 hashes for files
+    $packageXmlContents = file_get_contents(realpath(__DIR__.'/../package_template.xml'));
+    $dom = new DOMDocument;
+    $dom->loadXML($packageXmlContents);
+    $files = $dom->getElementsByTagName('file');
+    foreach ($files as $file) {
+        $hash = $file->getAttribute('hash');
+        if(file_exists(realpath(__DIR__.'/../'.$hash))) {
+            $newHash = md5_file(realpath(__DIR__.'/../'.$hash));
+            $file->setAttribute('hash', $newHash);
+        }
+    }
+    $dom->saveXML();
+    echo  'Wrote: '.$dom->save(realpath(__DIR__.'/../package.xml'))." bytes\n";
+
+    foreach ($iterator as $name => $file) {
+        if (!$file->isDir()) {
+            // Get real path for current file
+            $filePath = $file->getRealPath();
+            $relativePath = substr($filePath, strlen($dir) + 1);
+
+            foreach($includes as $include) {
+                if(strpos($filePath, $include) !== false) {
+                    $package->addFile($filePath, $relativePath);
+                }
+            }
+        }
+    }
+
+    // check if previously created archive file exists
+    if (file_exists('Locale_Mage_community_sl_SI.tgz')) {
+        unlink('Locale_Mage_community_sl_SI.tgz');
+    }
+    // Compress .tar file to .tgz
+    $package->compress(Phar::GZ, '.tgz');
+    echo "Locale_Mage_community_sl_SI.tgz created.\n";
+    // Both files (.tar and .tgz) exist. This removes unneeded .tar file
+    unlink('Locale_Mage_community_sl_SI.tar');
+} catch (Exception $e) {
+    echo 'Exception: '.$e;
+}

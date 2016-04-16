@@ -28,14 +28,11 @@ Translating should follow guidelines and rules from
 
 ## Magento Connect extension
 
-Extension is also uploaded to Magento Connect. File
-[bin/generator.php](bin/generator.php) is used to generate Magento extension
-for publishing on Magento Connect.
-
-Following creates sl_SI.tgz file that is uploaded on Magento Connect:
+Extension is also uploaded to Magento Connect. File [bin/build](bin/build) is
+used to generate Magento extension `Locale_Mage_community_sl_SI.tgz`:
 
 ```bash
-$ php bin/generator.php
+$ php ./bin/build
 ```
 
 ### Generating extension description
