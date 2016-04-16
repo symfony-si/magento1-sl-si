@@ -14,7 +14,6 @@
             <version>1.0.0</version>
         </Slovenian_LocalePackSl>
     </modules>
-
     <adminhtml>
         <layout>
             <updates>
@@ -23,5 +22,37 @@
                 </slovenian_localepacksl>
             </updates>
         </layout>
+        <modules>
+            <Mage_Api2>
+                <files>
+                    <default>Mage_Api2.csv</default>
+                </files>
+            </Mage_Api2>
+            <Mage_Captcha>
+                <files>
+                    <default>Mage_Captcha.csv</default>
+                </files>
+            </Mage_Captcha>
+            <Mage_Connect>
+                <files>
+                    <default>Mage_Connect.csv</default>
+                </files>
+            </Mage_Connect>
+            <Mage_Dataflow>
+                <files>
+                    <default>Mage_Dataflow.csv</default>
+                </files>
+            </Mage_Dataflow>
+            <Mage_ImportExport>
+                <files>
+                    <default>Mage_ImportExport.csv</default>
+                </files>
+            </Mage_ImportExport>
+            <Mage_Weee>
+                <files>
+                    <default>Mage_Weee.csv</default>
+                </files>
+            </Mage_Weee>
+        </modules>
     </adminhtml>
 </config>
