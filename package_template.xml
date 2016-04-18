@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>locale_sl_si</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license uri="https://github.com/symfony-si/magento1-sl-si/blob/master/LICENSE">OSL-3.0</license>
     <channel>community</channel>
@@ -159,10 +159,31 @@
         </dir>
         <dir name="frontend">
           <dir name="default">
+            <dir name="blank">
+              <dir name="locale">
+                <dir name="sl_SI">
+                  <file name="translate.csv" hash="app/design/frontend/default/blank/locale/sl_SI/translate.csv"/>
+                </dir>
+              </dir>
+            </dir>
             <dir name="default">
               <dir name="locale">
                 <dir name="sl_SI">
                   <file name="translate.csv" hash="app/design/frontend/default/default/locale/sl_SI/translate.csv"/>
+                </dir>
+              </dir>
+            </dir>
+            <dir name="iphone">
+              <dir name="locale">
+                <dir name="sl_SI">
+                  <file name="translate.csv" hash="app/design/frontend/default/iphone/locale/sl_SI/translate.csv"/>
+                </dir>
+              </dir>
+            </dir>
+            <dir name="modern">
+              <dir name="locale">
+                <dir name="sl_SI">
+                  <file name="translate.csv" hash="app/design/frontend/default/modern/locale/sl_SI/translate.csv"/>
                 </dir>
               </dir>
             </dir>
@@ -268,5 +289,5 @@
       </target>
     </contents>
     <compatible/>
-    <dependencies><required><php><min>5.4.0</min><max>7.0.0</max></php></required></dependencies>
+    <dependencies><required><php><min>5.4.0</min><max>8.0.0</max></php></required></dependencies>
 </package>

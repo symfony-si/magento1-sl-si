@@ -4,11 +4,12 @@ All notable changes to this project will be documented in this file. This projec
 [keeps a CHANGELOG](http://keepachangelog.com/) and adheres to
 [Semantic Versioning](http://semver.org/).
 
-## [UNREALEASED] - 2016-04-14
+## [UNREALEASED] - 2016-04-16
 
 ### Added
 
-* ...
+* Magento 1 works OK also on PHP 7. Package info updated.
+* Some typos fixed.
 
 
 ## [1.0.0] - 2016-04-16
