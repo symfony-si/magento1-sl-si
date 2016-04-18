@@ -29,7 +29,7 @@ Translating should follow guidelines and rules from
 ## Magento Connect extension
 
 Extension is also uploaded to Magento Connect. File [bin/build](bin/build) is
-used to generate Magento extension `Locale_Mage_community_sl_SI.tgz`:
+used to generate Magento extension `locale_sl_si.tgz`:
 
 ```bash
 $ php ./bin/build
