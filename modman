@@ -4,7 +4,10 @@ app/code/community/Slovenian/LocalePackSl/etc/config.xml	app/code/community/Slov
 # User Interface
 app/design/adminhtml/default/default/layout/slovenian/localepacksl.xml	app/design/adminhtml/default/default/layout/slovenian/localepacksl.xml
 app/design/adminhtml/default/default/locale/sl_SI/translate.csv	app/design/adminhtml/default/default/locale/sl_SI/translate.csv
+app/design/frontend/default/blank/locale/sl_SI/translate.csv	app/design/frontend/default/blank/locale/sl_SI/translate.csv
 app/design/frontend/default/default/locale/sl_SI/translate.csv	app/design/frontend/default/default/locale/sl_SI/translate.csv
+app/design/frontend/default/iphone/locale/sl_SI/translate.csv	app/design/frontend/default/iphone/locale/sl_SI/translate.csv
+app/design/frontend/default/modern/locale/sl_SI/translate.csv	app/design/frontend/default/modern/locale/sl_SI/translate.csv
 
 # Global Configuration
 app/etc/modules/Slovenian_LocalePackSl.xml	app/etc/modules/Slovenian_LocalePackSl.xml
@@ -118,7 +121,6 @@ app/locale/sl_SI/template/email/product_stock_alert.html	app/locale/sl_SI/templa
 app/locale/sl_SI/template/email/sitemap_generate_warning.html	app/locale/sl_SI/template/email/sitemap_generate_warning.html
 app/locale/sl_SI/template/email/token.html	app/locale/sl_SI/template/email/token.html
 app/locale/sl_SI/template/email/wishlist_share.html	app/locale/sl_SI/template/email/wishlist_share.html
-
 
 # TinyMCE
 js/slovenian/setup.js	js/slovenian/setup.js
