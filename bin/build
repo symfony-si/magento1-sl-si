@@ -27,6 +27,13 @@ try {
             $file->setAttribute('hash', $newHash);
         }
     }
+
+    // set current time and date
+    $date = $dom->getElementsByTagName('date')->item(0);
+    $time = $dom->getElementsByTagName('time')->item(0);
+    $date->nodeValue = date('Y-m-d');
+    $time->nodeValue = date('H:i:s');
+
     $dom->saveXML();
     echo  'Wrote: '.$dom->save(realpath(__DIR__.'/../package.xml'))." bytes\n";
 

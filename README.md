@@ -1,7 +1,7 @@
 # Magento 1 Slovenian Translations
 
 ![Progress](http://progressed.io/bar/100?title=completed)
-[![Magento Connect Extension](https://img.shields.io/badge/Magento-Connnect-bc6538.svg)](https://www.magentocommerce.com/magento-connect/)
+[![Magento Connect Extension](https://img.shields.io/badge/Magento-Connnect-bc6538.svg)](https://www.magentocommerce.com/magento-connect/catalog/product/view/id/30929/s/slovenian-translations/)
 [![Open Software License v. 3.0](https://img.shields.io/badge/License-OSL--3.0-blue.svg)](LICENSE)
 
 ## Index
