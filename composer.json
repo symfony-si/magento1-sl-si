@@ -1,8 +1,8 @@
 {
     "name": "symfony-si/magento1-sl-si",
     "type": "magento-module",
-    "license": "MIT",
-    "description": "Slovenian Community Translation",
+    "license": "OSL-3.0",
+    "description": "Slovenian (Slovenia) translations for Magento 1.x Community Edition",
     "authors": [
         {
             "name": "Peter Kokot"
