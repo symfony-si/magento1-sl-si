@@ -9,7 +9,8 @@ All notable changes to this project will be documented in this file. This projec
 ### Added
 
 * Magento 1 works OK also on PHP 7. Package info updated.
-* Some typos fixed.
+* Some typos fixed in translations.
+* TinyMCE translation improved.
 
 
 ## [1.0.0] - 2016-04-16

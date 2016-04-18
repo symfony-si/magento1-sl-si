@@ -1,4 +1,1 @@
-tinyMCE.addI18n('en.autosave',{
-restore_content: "Restore auto-saved content",
-warning_message: "If you restore the saved content, you will lose all the content that is currently in the editor.\n\nAre you sure you want to restore the saved content?"
-});
+tinyMCE.addI18n("sl.autosave",{restore_content:"Povrni samodejno shranjeno vsebino",warning_message:"\u010ce povrnete shranjeno vsebino, boste izgubili vso vsebino, ki je trenutno v urejevalniku.\n\nAli ste prepri\u010dani, da \u017eelite povrniti shranjeno vsebino?"});
