@@ -46,7 +46,7 @@ Choose **one** of the installation options below that suits your case:
 
 ### Magento Connect
 
-Extension is available on [Magento Connect](https://www.magentocommerce.com/magento-connect/),
+Extension is available on [Magento Connect](https://www.magentocommerce.com/magento-connect/catalog/product/view/id/30929/s/slovenian-translations/),
 which is the recommended method for installing extensions to Magento 1.x. Copy
 extension key from Magento Connect and use it in Magento administration at
 *System->Magento Connect->Magento Connect Manager*.
