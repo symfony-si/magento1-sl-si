@@ -51,7 +51,7 @@ app/locale/sl_SI/Mage_Install.csv	app/locale/sl_SI/Mage_Install.csv
 app/locale/sl_SI/Mage_Log.csv	app/locale/sl_SI/Mage_Log.csv
 app/locale/sl_SI/Mage_Media.csv	app/locale/sl_SI/Mage_Media.csv
 app/locale/sl_SI/Mage_Newsletter.csv	app/locale/sl_SI/Mage_Newsletter.csv
-app/locale/sl_SI/Mage_OAuth.csv	app/locale/sl_SI/Mage_OAuth.csv
+app/locale/sl_SI/Mage_Oauth.csv	app/locale/sl_SI/Mage_Oauth.csv
 app/locale/sl_SI/Mage_Page.csv	app/locale/sl_SI/Mage_Page.csv
 app/locale/sl_SI/Mage_PageCache.csv	app/locale/sl_SI/Mage_PageCache.csv
 app/locale/sl_SI/Mage_Paygate.csv	app/locale/sl_SI/Mage_Paygate.csv
