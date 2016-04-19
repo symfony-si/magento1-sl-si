@@ -9,7 +9,10 @@ All notable changes to this project will be documented in this file. This projec
 
 ### Added
 
-* ...
+* Composer installation fixed via modman
+* Versioning strategy added to contributing document
+* Grammar fixed
+* Multiple missing translations added
 
 
 ## [1.0.1] - 2016-04-19
