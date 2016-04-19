@@ -18,7 +18,7 @@
 "Database and Media Backup","Varnostna kopija podatkovne baze in medijev"
 "Database was successfuly backed up.","Podatkovna baza je bila uspešno varnostno kopirana."
 "Download","Prenos"
-"Enable Scheduled Backup","Omogočite načrtovano varnostno kopijo"
+"Enable Scheduled Backup","Omogoči načrtovano varnostno kopijo"
 "Failed to connect to FTP","Povezava s FTP ni uspela"
 "Failed to delete one or several backups.","Brisanje ene ali več varnostnih kopij ni uspelo."
 "Failed to rollback","Povrnitev ni uspela"

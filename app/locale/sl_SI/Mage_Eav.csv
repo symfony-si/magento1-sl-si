@@ -30,7 +30,7 @@
 "'%value%' does not appear to be a valid local network name","'%value%' ne izgleda, da je veljavno ime lokalnega omrežja"
 "'%value%' does not match the expected structure for a DNS hostname","'%value%' se ne ujema s pričakovano strukturo za DNS ime gostitelja"
 "A joint field with this alias (%s) is already declared","Skupno polje s tem aliasom (%s) je že deklarirano"
-"Add Option","Dodajte opcijo"
+"Add Option","Dodaj možnot"
 "An error occurred while loading a record, aborting. Error: %s","Med nalaganjem vnosa je prišlo do napake, preklicujem. Napaka: %s"
 "An error occurred while loading the collection, aborting. Error: %s","Med nalaganjem zbirke je prišlo do napake, preklicujem. Napaka: %s"
 "An error occurred while saving a record, aborting. Error: ","Med shranjevanjem vnosa je prišlo do napake, preklicujem. Napaka: "

@@ -45,3 +45,12 @@ and provided PHP script:
 $ sudo sh -c "curl http://get.sensiolabs.org/melody.phar -o /usr/local/bin/melody && chmod a+x /usr/local/bin/melody"
 $ melody run bin/makeReadme.php
 ```
+
+### Versioning
+
+Development follows [semantic versioning](http://semver.org). Version must be
+manually set/updated in the following locations:
+
+* GitHub tag
+* `app/code/community/Slovenian/LocalePackSl/etc/config.xml`
+* `package_template.xml`
