@@ -1,8 +1,8 @@
 # Contribution Guidelines
 
 You are most welcome to suggest improvements, report
-[issues](https://github.com/symfony-si/magento1-sl-si/issues), or send pull
-requests:
+[issue](https://github.com/symfony-si/magento1-sl-si/issues), or send a pull
+request:
 
 * Fork this repository over GitHub
 * Set up your local repository
@@ -21,36 +21,45 @@ $ git commit -m "Update files"
 $ git push origin
 ```
 
-## Translation guidelines
 
-Translating should follow guidelines and rules from
+## Translation Rules
+
+Translations must follow Slovenian translation rules from
 [Lugos](https://wiki.lugos.si/slovenjenje:pravila).
 
-## Magento Connect extension
 
-Extension is also uploaded to Magento Connect. File [bin/build](bin/build) is
-used to generate Magento extension `locale_sl_si.tgz`:
+## Release Process
 
-```bash
-$ php ./bin/build
+*(For repository maintainers)*
+
+This repository follows [semantic versioning](http://semver.org). When source
+code changes or new features are implemented, a new version (e.g. `1.x.y`) is
+released by the following release process:
+
+* **1. Extension Package**
+
+    Create extension package `locale_sl_si-1.x.y.tgz` with [bin/release](bin/release)
+    and provide a new release version, for example to simply release `1.0.4`:
+
+    ```bash
+$ php ./bin/release 1.0.4
 ```
+    Release script automatically updates version in [config.xml](app/code/community/Slovenian/LocalePackSl/etc/config.xml)
+    and creates tar gzip archive based on the [package_template.xml](package_template.xml).
+    It generates also `README.html` from the one in Markdown for updating Magento
+    Connect extension description.
 
-### Generating extension description
+* **2. Update changelog:**
 
-Magento Connect provides HTML description of the extension. Here is a simple way
-to convert README.md content to HTML with [Melody](http://melody.sensiolabs.org/)
-and provided PHP script:
+    Create an entry in [CHANGELOG.md](CHANGELOG.md) describing all the changes
+    from previous release.
 
-```bash
-$ sudo sh -c "curl http://get.sensiolabs.org/melody.phar -o /usr/local/bin/melody && chmod a+x /usr/local/bin/melody"
-$ melody run bin/makeReadme.php
-```
+* **3. Magento Connect:**
 
-### Versioning
+    Publish `locale_sl_si-1.x.y.tgz` on [Magento Connect](https://www.magentocommerce.com/magento-connect/catalog/product/view/id/30929/s/slovenian-translations/).
+    Update extensino
 
-Development follows [semantic versioning](http://semver.org). Version must be
-manually set/updated in the following locations:
+* **4. Tagging release on GitHub:**
 
-* GitHub tag
-* `app/code/community/Slovenian/LocalePackSl/etc/config.xml`
-* `package_template.xml`
+    Tag a new version on [GitHub](https://github.com/symfony-si/magento1-sl-si/releases),
+    and attach `locale_sl_si-1.x.y.tgz` as a binary file.
