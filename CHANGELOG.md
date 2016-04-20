@@ -5,14 +5,22 @@ All notable changes to this project will be documented in this file. This projec
 [Semantic Versioning](http://semver.org/).
 
 
-## [UNREALEASED] - 2016-04-19
+## [UNREALEASED]
+
+### Added
+
+* ...
+
+
+## [1.0.2] - 2016-04-21
 
 ### Added
 
 * Composer installation fixed via modman
-* Versioning strategy added to contributing document
+* Versioning and release process added to contributing document
 * Grammar fixed
-* Multiple missing translations added
+* Some missing translations added
+* Fixed md5 file hashes in package.xml
 
 
 ## [1.0.1] - 2016-04-19
