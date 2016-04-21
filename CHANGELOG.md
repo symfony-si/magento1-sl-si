@@ -12,6 +12,13 @@ All notable changes to this project will be documented in this file. This projec
 * ...
 
 
+## [1.0.3] - 2016-04-21
+
+## Added
+
+* Translations for emails subjects
+
+
 ## [1.0.2] - 2016-04-21
 
 ### Added
