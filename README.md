@@ -5,18 +5,34 @@
 [![Open Software License v. 3.0](https://img.shields.io/badge/License-OSL--3.0-blue.svg)][license]
 [![GitHub release](https://img.shields.io/github/release/symfony-si/magento1-sl-si.svg?maxAge=2592000)][latest-release]
 
+**About**
 
-Slovenian (Slovenia) - `sl_SI` open source language pack for [Magento](https://magento.com/)
+Slovenian (Slovenia) - `sl_SI` open source language pack for [Magento][magento]
 Community Edition 1.x. Translations include entire Magento Community edition - store's
 front end, administration, emails and TinyMCE editor in administration forms.
 
-Translations follow Slovenian grammar and translation rules from
-[Lugos](https://wiki.lugos.si/slovenjenje:pravila).
+Translations follow Slovenian grammar and translation rules from [Lugos][lugos].
 
 Supported versions: Magento CE `1.9.2.4`, `1.9.2.3`, `1.9.2.2`, `1.9.2.1`, `1.9.2.0`,
 `1.9.1.1` and `1.9.1.0`.
 
-Development of the extension is happening on [GitHub](https://github.com/symfony-si/magento1-sl-si).
+Development of the extension is happening on [GitHub][github-project].
+
+---
+
+**O prevodu**
+
+Slovenski (Slovenija) - `sl_SI` odprto kodni jezikovni paket za [Magento][magento]
+Community Edition 1.x. Prevodi vključujejo celotno izdajo Magento Community - ospredje
+trgovine, administracijo, e-pošte in urejevalnik TinyMCE v administracijskih
+obrazcih.
+
+Prevodi sledijo slovenski slovnici in pravilom slovenjenja [Lugos][lugos].
+
+Podprte verzije: Magento CE `1.9.2.4`, `1.9.2.3`, `1.9.2.2`, `1.9.2.1`, `1.9.2.0`,
+`1.9.1.1` in `1.9.1.0`.
+
+Razvoj razširitve poteka na [GitHub-u][github-project].
 
 
 ## Installation
@@ -96,7 +112,7 @@ TinyMCE editor in Magento 1 is by default using English language. Slovenian
 translation for TinyMCE is also enabled if you've followed one of the above
 installation procedures.
 
-**Which files are include?**
+**Which files/folders are included in the package?**
 
 Language pack consists of the following files/folders:
 
@@ -167,3 +183,6 @@ This repository is released under the [Open Software License v. 3.0][license].
 [magento-connect]: https://www.magentocommerce.com/magento-connect/catalog/product/view/id/30929/s/slovenian-translations/
 [latest-release]: https://github.com/symfony-si/magento1-sl-si/releases/latest
 [license]: https://github.com/symfony-si/magento1-sl-si/blob/master/LICENSE
+[lugos]: https://wiki.lugos.si/slovenjenje:pravila
+[github-project]: https://github.com/symfony-si/magento1-sl-si
+[magento]: https://magento.com/
