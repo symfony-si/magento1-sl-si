@@ -28,6 +28,17 @@ Translations must follow Slovenian translation rules from
 [Lugos](https://wiki.lugos.si/slovenjenje:pravila).
 
 
+## Development Practices
+
+Composer can be also used to separate local development of the module from Magento
+Store. After cloning the repository, install the dependencies and run tests:
+
+```bash
+$ composer install
+$ phpunit
+```
+
+
 ## Release Process
 
 *(For repository maintainers)*

@@ -2,8 +2,9 @@
     "name": "symfony-si/magento1-sl-si",
     "type": "magento-module",
     "license": "OSL-3.0",
-    "description": "Slovenian (Slovenia) translations for Magento 1.x Community Edition",
+    "description": "Slovenian (Slovenia) - sl_SI translations for Magento 1.x Community Edition",
     "homepage": "https://github.com/symfony-si/magento1-sl-si",
+    "keywords": ["slovenian", "language", "sl_SI"],
     "authors": [
         {
             "name": "Peter Kokot",
@@ -14,7 +15,16 @@
         "magento-hackathon/magento-composer-installer": "*"
     },
     "require-dev": {
-        "league/commonmark": "^0.13"
+        "php": ">=5.6.0",
+        "league/commonmark": "^0.13",
+        "phpunit/phpunit": "^5.3",
+        "mikey179/vfsStream": "^1"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SymfonySi\\LocalePack\\": "src/",
+            "SymfonySi\\Test\\": "tests/"
+        }
     },
     "extra": {
         "magento-root-dir": "root"

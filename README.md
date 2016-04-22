@@ -3,7 +3,7 @@
 ![Progress](http://progressed.io/bar/100?title=completed)
 [![Magento Connect Extension](https://img.shields.io/badge/Magento-Connnect-bc6538.svg)][magento-connect]
 [![Open Software License v. 3.0](https://img.shields.io/badge/License-OSL--3.0-blue.svg)][license]
-[![GitHub release](https://img.shields.io/github/release/symfony-si/magento1-sl-si.svg?maxAge=2592000)][latest-release]
+[![Latest Release](https://img.shields.io/github/release/symfony-si/magento1-sl-si.svg)][latest-release]
 
 **About**
 
@@ -13,7 +13,7 @@ front end, administration, emails and TinyMCE editor in administration forms.
 
 Translations follow Slovenian grammar and translation rules from [Lugos][lugos].
 
-Supported versions: Magento CE `1.9.2.4`, `1.9.2.3`, `1.9.2.2`, `1.9.2.1`, `1.9.2.0`,
+Supported Magento CE versions: `1.9.2.4`, `1.9.2.3`, `1.9.2.2`, `1.9.2.1`, `1.9.2.0`,
 `1.9.1.1` and `1.9.1.0`.
 
 Development of the extension is happening on [GitHub][github-project].
@@ -29,15 +29,18 @@ obrazcih.
 
 Prevodi sledijo slovenski slovnici in pravilom slovenjenja [Lugos][lugos].
 
-Podprte verzije: Magento CE `1.9.2.4`, `1.9.2.3`, `1.9.2.2`, `1.9.2.1`, `1.9.2.0`,
+Podprte Magento CE verzije: `1.9.2.4`, `1.9.2.3`, `1.9.2.2`, `1.9.2.1`, `1.9.2.0`,
 `1.9.1.1` in `1.9.1.0`.
 
 Razvoj razširitve poteka na [GitHub-u][github-project].
 
+---
 
 ## Installation
 
-Choose **one** of the installation options below that suits your case:
+Choose **one** of the installation options below that suits your case. Enable
+Slovenian locale in Magento admin at *System->Configuration->Locale Options->Locale*
+and flush the Magento cache after installation to see changes.
 
 **Option 1: Magento Connect**
 
@@ -50,20 +53,11 @@ Connect and use it in Magento administration at
 
 **Option 2: Manual Installation**
 
-Or you can directly upload the latest package archive [locale_sl_si-1.x.y.tgz][latest-release],
-where `x` and `y` are numbers of the latest release version via Magento Connect
-Manager as well:
+in Magento Connect Manager you can also directly upload the latest package
+archive [locale_sl_si-1.x.y.tgz][latest-release], where `x` and `y` are the
+numbers of the latest release version:
 
 ![Direct file upload](https://raw.githubusercontent.com/symfony-si/magento1-sl-si/master/img/magentoconnect_2.png)
-
-Installing files manually without the Magento Connect Manager:
-
-1. Download the [latest version][latest-release] and extract it locally.
-2. Copy folders `app` and `js` to your Magento store document root.
-3. Rename `package.xml` to the same file name as archive `locale_sl_si-1.x.y.xml`
-4. Move the original archive and file `package.xml` to `var/package/` folder
-5. Enable Slovenian language in Magento admin at *System->Configuration->Locale Options->Locale*.
-6. Flush the Magento cache, log out and login again to see changes.
 
 **Option 3: Composer**
 
@@ -86,7 +80,6 @@ run:
 $ modman init
 $ modman clone git://github.com/symfony-si/magento1-sl-si.git
 ```
-
 
 ## FAQ
 
@@ -164,7 +157,7 @@ in `app/locale/`. By default there is an `en_US` folder with English translation
 * [Magento Connect - Create Your Extension](https://www.magentocommerce.com/magento-connect/create_your_extension/)
 
 
-### Magento 2
+## Magento 2
 
 Looking for Magento 2? Slovenian translations for Magento 2 are also happening on
 [GitHub](https://github.com/symfony-si/magento2-sl_si).

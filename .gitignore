@@ -1,6 +1,5 @@
-/README.html
-/locale_sl_si*.tgz
-/vendor/
 /composer.lock
-/package/package.xml
+/locale_sl_si*.tgz
+/README.html
 /root/
+/vendor/

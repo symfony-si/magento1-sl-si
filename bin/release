@@ -4,123 +4,32 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 
 use League\CommonMark\CommonMarkConverter;
-
-// Create HTML from MarkDown
-$readmeMd = file_get_contents('README.md');
-$converter = new CommonMarkConverter();
-$html = $converter->convertToHtml($readmeMd);
-file_put_contents('./README.html', $html, LOCK_EX);
-
-// Create package
-
-class MagentoPackage
-{
-    /** @var string Package name */
-    private $name;
-
-    /** @var string Package version */
-    private $version;
-
-    /** @var string Path to module configuration file */
-    private $configFile = __DIR__.'/../package/app/code/community/Slovenian/LocalePackSl/etc/config.xml';
-
-    /** @var string Path to package XML template file */
-    private $dataTemplateFile = __DIR__.'/../package_template.xml';
-
-    /** @var string Path to generated package.xml file */
-    private $dataFile = __DIR__.'/../package/package.xml';
-
-    /**
-     * Constructor.
-     *
-     * @param array Configuration.
-     */
-    public function __construct(array $config = [])
-    {
-        // Set new version in module configuration
-        $this->version = $config['version'];
-        $dom = new DOMDocument;
-        $dom->load($this->configFile);
-        $dom->getElementsByTagName('version')->item(0)->nodeValue = $this->version;
-        $dom->saveXML();
-        echo 'Module config.xml updated: '.$dom->save($this->configFile)." bytes written\n";
-
-        // Set package name
-        $dom = new DOMDocument;
-        $dom->load($this->dataTemplateFile);
-        $this->name = $dom->getElementsByTagName('name')->item(0)->nodeValue;
-    }
-
-    /**
-     * Build tar gzip archive file.
-     *
-     * @return true|false Whether successful or not.
-     */
-    public function build()
-    {
-        $tarFile = __DIR__.'/../'.$this->name.'.tar';
-        $tgzFile = __DIR__.'/../'.$this->name.'.tgz';
-
-        // Generate package.xml
-        echo 'package.xml created: '.$this->generatePackageXml()." bytes written.\n";
-
-        // Create tar archive
-        $phar = new PharData($tarFile);
-        // add all files in the project
-        $phar->buildFromDirectory(__DIR__.'/../package');
-
-        // Compress .tar file to .tgz
-        $phar->compress(Phar::GZ, '.tgz');
-        rename($tgzFile, __DIR__.'/../'.$this->name.'-'.$this->version.'.tgz');
-        echo "\n".$this->name.'-'.$this->version.".tgz created\n";
-
-        // Both files (.tar and .tgz) exist. Remove the temporary .tar archive
-        unlink($tarFile);
-    }
-
-    /**
-     * Generates package XML file from template, replaces time, date and calculates md5 hashes of included files.
-     *
-     * @return string|false Number of bytes written or false in case of failure.
-     */
-    private function generatePackageXml()
-    {
-        $dom = new DOMDocument;
-        $dom->load($this->dataTemplateFile);
-
-        $files = $dom->getElementsByTagName('file');
-        foreach ($files as $file) {
-            $hash = $file->getAttribute('hash');
-            if (file_exists(__DIR__.'/../'.$hash)) {
-                $md5 = md5_file(realpath(__DIR__.'/../'.$hash));
-                $file->setAttribute('hash', $md5);
-            }
-        }
-
-        // Set current time and date
-        $dom->getElementsByTagName('date')->item(0)->nodeValue = date('Y-m-d');
-        $dom->getElementsByTagName('time')->item(0)->nodeValue = date('H:i:s');
-
-        // Set package archive version from module configuration
-        $dom->getElementsByTagName('version')->item(0)->nodeValue = $this->version;
-
-        $dom->saveXML();
-        return $dom->save($this->dataFile);
-    }
-}
+use SymfonySi\LocalePack\Package;
 
 try {
     if (!isset($argv[1])) {
-        throw new Exception('You must provide a version.');
+        throw new \Exception('You must provide a version.');
     }
 
     // Validate version format
     if (!preg_match("/^(\d+\.)?(\d+\.)?(\*|\d+)$/", $argv[1])) {
-        throw new Exception('Wrong version format. Must be a version number: x.y.z');
+        throw new \Exception('Wrong version format. Must be a version number: x.y.z');
     }
 
-    $package = new MagentoPackage(['version' => $argv[1]]);
-    $package->build();
-} catch (Exception $e) {
+    // Create README HTML file from Markdown
+    $readmeMd = file_get_contents(__DIR__.'/../README.md');
+    $converter = new CommonMarkConverter();
+    $html = $converter->convertToHtml($readmeMd);
+    file_put_contents(__DIR__.'/../README.html', $html, LOCK_EX);
+    echo "README.html created.\n";
+
+    // Create package
+    $package = new Package([
+        'version' => $argv[1],
+        'configFile' => __DIR__.'/../package/app/code/community/Slovenian/LocalePackSl/etc/config.xml',
+        'packageFile' => __DIR__.'/../package/package.xml',
+    ]);
+    echo $package->build()."\n";
+} catch (\Exception $e) {
     echo 'Exception: '.$e;
 }
