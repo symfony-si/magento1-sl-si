@@ -10,7 +10,7 @@
 <config>
     <modules>
         <Slovenian_LocalePackSl>
-            <version>1.0.3</version>
+            <version>1.0.4</version>
         </Slovenian_LocalePackSl>
     </modules>
     <adminhtml>

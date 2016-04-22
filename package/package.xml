@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<package>
+    <name>locale_sl_si</name>
+    <version>1.0.4</version>
+    <stability>stable</stability>
+    <license uri="https://github.com/symfony-si/magento1-sl-si/blob/master/LICENSE">OSL-3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Slovenian Translations</summary>
+    <description>Slovenian (Slovenia) - sl_SI language pack for Magento 1.x Community Edition</description>
+    <notes>Slovenian translation files supporting Magento Community Editions up to 1.9.2.4. Translations include entire Magento Community edition - store's     front end, administration, emails and TinyMCE editor in administration forms. Translations follow Slovenian grammar and translation rules from Lugos.</notes>
+    <authors><author><name>Peter Kokot</name><user>peterkokot</user><email>peterkokot@gmail.com</email></author></authors>
+    <date>2016-04-22</date>
+    <time>17:37:26</time>
+    <contents>
+      <target name="magelocale">
+        <dir name="sl_SI">
+          <file name="Mage_AdminNotification.csv" hash="1130afb15613355376d74bca55ce198a"/>
+          <file name="Mage_Adminhtml.csv" hash="8cf6c15c891bdae2ac0bffee7522250f"/>
+          <file name="Mage_AmazonPayments.csv" hash="2e0e4b437d7964741028d610a10b3681"/>
+          <file name="Mage_Api.csv" hash="0ae3e524f4764499c8dc5fa398b87dc7"/>
+          <file name="Mage_Api2.csv" hash="5654798c3197d2760c8bb74185d9bbd9"/>
+          <file name="Mage_Authorizenet.csv" hash="b28f1a33a172b2c18ef32786fef30d99"/>
+          <file name="Mage_Backup.csv" hash="71c7691960c17e1a74f2037883534a99"/>
+          <file name="Mage_Bundle.csv" hash="d005bfefa4a56f0565e4c9887f94f8d3"/>
+          <file name="Mage_Captcha.csv" hash="249e97dd6d7c4bc8360dcb733fc7cc0f"/>
+          <file name="Mage_Catalog.csv" hash="9c53f83c6ed450254c484271106167d7"/>
+          <file name="Mage_CatalogInventory.csv" hash="dddae5893a8f506e9851c5f796e71956"/>
+          <file name="Mage_CatalogRule.csv" hash="21eda90a6179f61953e197f5f73c6438"/>
+          <file name="Mage_CatalogSearch.csv" hash="608cfd7bbef938078fb0424a1e8ce870"/>
+          <file name="Mage_Centinel.csv" hash="27a2433b19e2e53ed5eb6a65b5a2e04b"/>
+          <file name="Mage_Checkout.csv" hash="cdcdb56ccaaab2778b0fd35527a02a72"/>
+          <file name="Mage_Cms.csv" hash="f222c70757acf7c4568173faf4def80e"/>
+          <file name="Mage_Compiler.csv" hash="768e875e3caa1d077f324518497ac73e"/>
+          <file name="Mage_ConfigurableSwatches.csv" hash="2cd127fa9f4aa12b8ab96e8b8d7e37a8"/>
+          <file name="Mage_Connect.csv" hash="f8164c7e5ad7f17c1f4f8aeaad808433"/>
+          <file name="Mage_Contacts.csv" hash="39c6401bd752bf861b53ada95b34e889"/>
+          <file name="Mage_Core.csv" hash="aa73405cb630bfba49191bf5ade43ff0"/>
+          <file name="Mage_Cron.csv" hash="08ee7ab53ce347ac87ebc55279cb931f"/>
+          <file name="Mage_CurrencySymbol.csv" hash="90b42385c8cea2c257aad67fb1ebd979"/>
+          <file name="Mage_Customer.csv" hash="b7c8186ec102d1c17634be43cfa9db60"/>
+          <file name="Mage_Dataflow.csv" hash="b282ca09bde3ddac1df57b74c8efc41a"/>
+          <file name="Mage_Directory.csv" hash="50dec50d516731ed3840f4e4fbd36d6f"/>
+          <file name="Mage_Downloadable.csv" hash="d5d657ab0bcd763aaa82488dbe02f3bc"/>
+          <file name="Mage_Eav.csv" hash="35971b430d1e66ab34a1e519ca2a4309"/>
+          <file name="Mage_GiftMessage.csv" hash="3b0ea21f1336d6f3055904aa4a931d5a"/>
+          <file name="Mage_GoogleAnalytics.csv" hash="52b044d289a793e1079267dc9b5f1097"/>
+          <file name="Mage_GoogleBase.csv" hash="35e16c6bbc878575d9b166d2ee24c2d7"/>
+          <file name="Mage_GoogleCheckout.csv" hash="3bbde5ec052f0cb4cf0d3c647710618c"/>
+          <file name="Mage_ImportExport.csv" hash="ecd4adb516567fc008f729a8e3cc1072"/>
+          <file name="Mage_Index.csv" hash="c37b930d6caa69d5dbbff4c92c391500"/>
+          <file name="Mage_Install.csv" hash="7b3c8dad47469fec3bb96324998d3550"/>
+          <file name="Mage_Log.csv" hash="438d6222ddcfc6d252cf4fb07e0d002b"/>
+          <file name="Mage_Media.csv" hash="a207b149777d272caf51ea18f6c5b8f1"/>
+          <file name="Mage_Newsletter.csv" hash="0bc7d374cc17f9e07129ea96b3db68cd"/>
+          <file name="Mage_Oauth.csv" hash="ce3c620c815eb7d6264bca37a52e86ab"/>
+          <file name="Mage_Page.csv" hash="c5c328e7c785d03ce40f1935c2d590ef"/>
+          <file name="Mage_PageCache.csv" hash="b79429df6b699b81a68daa26a3a71742"/>
+          <file name="Mage_Paygate.csv" hash="161547aeea3c8d8d5c3a931af08f231d"/>
+          <file name="Mage_Payment.csv" hash="029ee1cab79097b89060a3502637be9b"/>
+          <file name="Mage_Paypal.csv" hash="82e747e5874afcfcf068d0568569201c"/>
+          <file name="Mage_PaypalUk.csv" hash="8cecfa65d4f585e1e39e73e28bd7ffb7"/>
+          <file name="Mage_Persistent.csv" hash="183b159fd39ff8ef140a14027e431f8b"/>
+          <file name="Mage_Poll.csv" hash="bf4f11936021862359ab41a5d9c99cec"/>
+          <file name="Mage_ProductAlert.csv" hash="5ee8bbc621ddc94d24a89bf184f0ce79"/>
+          <file name="Mage_Rating.csv" hash="be29b2c412facc28af1c03da0fab383d"/>
+          <file name="Mage_Reports.csv" hash="4127a9839a0d4c269ee8b425d43ec6b3"/>
+          <file name="Mage_Review.csv" hash="0fd06e6ab993badf54e9f3163b753e72"/>
+          <file name="Mage_Rss.csv" hash="7e2790769098ba4365099f45ac3c9cdd"/>
+          <file name="Mage_Rule.csv" hash="b8f5204d268b8e86ceeb5b737828fa89"/>
+          <file name="Mage_Sales.csv" hash="e0acdee7367ae26eb194e6a0287a08e6"/>
+          <file name="Mage_SalesRule.csv" hash="2da1bcb17f61ad0b018ba92a6328db2f"/>
+          <file name="Mage_Sendfriend.csv" hash="66262f4c57667d0783417569375796da"/>
+          <file name="Mage_Shipping.csv" hash="5be4fab34c780e7307af79a65b1f84f3"/>
+          <file name="Mage_Sitemap.csv" hash="0969f2a8a613b8552fe096d18e736809"/>
+          <file name="Mage_Tag.csv" hash="2702444c96af99bba147645135c0ec56"/>
+          <file name="Mage_Tax.csv" hash="032030823411c647ef8de7022c841d62"/>
+          <file name="Mage_Usa.csv" hash="62ce419e8bd31adf2bbaf08272f52a68"/>
+          <file name="Mage_Weee.csv" hash="f244afe5e779dcd06abe8f3e6b499d0a"/>
+          <file name="Mage_Widget.csv" hash="9225bf04de9190c43ef9e4ba2c7678e7"/>
+          <file name="Mage_Wishlist.csv" hash="36f1cd9a6e899c1039c1c489c88d7dcf"/>
+          <file name="Mage_XmlConnect.csv" hash="3052bfecff7cb10a9391a9f146a183b9"/>
+          <file name="Phoenix_Moneybookers.csv" hash="e6e277c3e4af98a7bb35956a0a973ac6"/>
+          <dir name="template">
+            <dir name="email">
+              <dir name="html">
+                <file name="footer.html" hash="f732335f2776582b62edd9a21c45e5c3"/>
+                <file name="header.html" hash="739a3ea8e07bbe3be76e4c93237bc5d2"/>
+              </dir>
+              <dir name="sales">
+                <file name="creditmemo_new.html" hash="914fd9c0d4bee0d3fb86ae0fb8017dd6"/>
+                <file name="creditmemo_new_guest.html" hash="e46b6b50bb66c969da605fbd7f6ff79e"/>
+                <file name="creditmemo_update.html" hash="6cc6f5beda1166c02cce19b35521bc91"/>
+                <file name="creditmemo_update_guest.html" hash="8a8b474e0f40b2a5df0ab312e4749edb"/>
+                <file name="invoice_new.html" hash="65cc565678fac5ddb4b638beaeafb1f2"/>
+                <file name="invoice_new_guest.html" hash="65cc565678fac5ddb4b638beaeafb1f2"/>
+                <file name="invoice_update.html" hash="bfd0b2c5882275ecc58b1fb22a22e8fb"/>
+                <file name="invoice_update_guest.html" hash="153777852a9ca89e57b348982535f306"/>
+                <file name="order_new.html" hash="a2d28523fed1a1f00f570dfa13cb87bd"/>
+                <file name="order_new_guest.html" hash="8d1f06546e5e71784d5983d3f3081d49"/>
+                <file name="order_update.html" hash="c84e7f84cf714592fe72c969b1d80298"/>
+                <file name="order_update_guest.html" hash="07aa33d1e52faed9ff06f07d76b65579"/>
+                <file name="shipment_new.html" hash="a90726d47a11c3d726e4aac8c8765d06"/>
+                <file name="shipment_new_guest.html" hash="bcb094dbd24c1db1414410a9a56630b1"/>
+                <file name="shipment_update.html" hash="76efff6f2106bf2d56b9776d558e9bfe"/>
+                <file name="shipment_update_guest.html" hash="a348de055da736792bbf6b23237cabdb"/>
+              </dir>
+              <file name="account_new.html" hash="feeeab80ec9c89d05e2b5f718727d70f"/>
+              <file name="account_new_confirmation.html" hash="6400cfdfa4c2ba187a802ec291dba0e2"/>
+              <file name="account_new_confirmed.html" hash="2fe1669a112e8d73dd5296e2157db10b"/>
+              <file name="account_password_reset_confirmation.html" hash="6df6727c065993bceeac744d56c8c1c6"/>
+              <file name="admin_password_new.html" hash="d8a458266166026d15bb3dd052e2241a"/>
+              <file name="admin_password_reset_confirmation.html" hash="d6ff2c596b2860b8123b398376b028cb"/>
+              <file name="contact_form.html" hash="da4de308d238a55a8d828dcca83d2166"/>
+              <file name="currency_update_warning.html" hash="14042c127c11b5871889285aa916efa9"/>
+              <file name="log_clean_warning.html" hash="b3885bc8d38cf41d6846c98f86c6fabc"/>
+              <file name="moneybookers_activateemail.html" hash="7ce14aeebacfa586ab5a99d9e166eb24"/>
+              <file name="newsletter_subscr_confirm.html" hash="b0917fc3ad58f17989eec12cdd50347d"/>
+              <file name="newsletter_subscr_success.html" hash="35740f98715f8b41ab541c810fd4f360"/>
+              <file name="newsletter_unsub_success.html" hash="d515cf547974a3ba78a2e32e49c413bc"/>
+              <file name="password_new.html" hash="474d05c970692d4799559e2b47d8de1a"/>
+              <file name="payment_failed.html" hash="2320ded716756a97843d47b5973d07ad"/>
+              <file name="product_alert_cron_error.html" hash="39d24fa9beecd58233ab859d4983c117"/>
+              <file name="product_price_alert.html" hash="5026878e4e13e462af427a50226c8b57"/>
+              <file name="product_share.html" hash="c42481c77a992254736c5388c0df92ec"/>
+              <file name="product_stock_alert.html" hash="37f3300f56fcb514c70a14dc33bb0b88"/>
+              <file name="sitemap_generate_warning.html" hash="51d3cb212b1f658ebcb6ceeee4e2c2e6"/>
+              <file name="token.html" hash="93402c35dfee6451840465505320a059"/>
+              <file name="wishlist_share.html" hash="a1a23bb7a832152077d62288d453ccef"/>
+            </dir>
+          </dir>
+        </dir>
+      </target>
+      <target name="magecommunity">
+        <dir name="Slovenian">
+          <dir name="LocalePackSl">
+            <dir name="etc">
+              <file name="config.xml" hash="cc5c579bae6bc0d294b6d52629f55368"/>
+            </dir>
+          </dir>
+        </dir>
+      </target>
+      <target name="magedesign">
+        <dir name="adminhtml">
+          <dir name="default">
+            <dir name="default">
+              <dir name="layout">
+                <dir name="slovenian">
+                  <file name="localepacksl.xml" hash="0047bb1041f4af75f9d0784261ea209f"/>
+                </dir>
+              </dir>
+              <dir name="locale">
+                <dir name="sl_SI">
+                  <file name="translate.csv" hash="982310e70d4192fa3b83fb7d8e5447a7"/>
+                </dir>
+              </dir>
+            </dir>
+          </dir>
+        </dir>
+        <dir name="frontend">
+          <dir name="default">
+            <dir name="blank">
+              <dir name="locale">
+                <dir name="sl_SI">
+                  <file name="translate.csv" hash="2af7872a3100c02ec8b05221c15f5bde"/>
+                </dir>
+              </dir>
+            </dir>
+            <dir name="default">
+              <dir name="locale">
+                <dir name="sl_SI">
+                  <file name="translate.csv" hash="2af7872a3100c02ec8b05221c15f5bde"/>
+                </dir>
+              </dir>
+            </dir>
+            <dir name="iphone">
+              <dir name="locale">
+                <dir name="sl_SI">
+                  <file name="translate.csv" hash="d41d8cd98f00b204e9800998ecf8427e"/>
+                </dir>
+              </dir>
+            </dir>
+            <dir name="modern">
+              <dir name="locale">
+                <dir name="sl_SI">
+                  <file name="translate.csv" hash="2af7872a3100c02ec8b05221c15f5bde"/>
+                </dir>
+              </dir>
+            </dir>
+          </dir>
+        </dir>
+      </target>
+      <target name="mageetc">
+        <dir name="modules">
+          <file name="Slovenian_LocalePackSl.xml" hash="7d9b389cb1c03ba8b3f898f15d2a3619"/>
+        </dir>
+      </target>
+      <target name="mageweb">
+        <dir name="js">
+          <dir name="slovenian">
+            <file name="setup.js" hash="845d9ecb59e7da1b51b15cbb04cc4a6c"/>
+          </dir>
+          <dir name="tiny_mce">
+            <dir name="langs">
+              <file name="sl.js" hash="7f91496a07e734d1d7bec6ab7181bf33"/>
+            </dir>
+            <dir name="plugins">
+              <dir name="advhr">
+                <dir name="langs">
+                  <file name="sl_dlg.js" hash="4e7105af8ec64914794590849317cd46"/>
+                </dir>
+              </dir>
+              <dir name="advimage">
+                <dir name="langs">
+                  <file name="sl_dlg.js" hash="8e4e7615856452d6cc44c9b0e1f9362d"/>
+                </dir>
+              </dir>
+              <dir name="advlink">
+                <dir name="langs">
+                  <file name="sl_dlg.js" hash="78acc36a153e86e62a23172fee70023a"/>
+                </dir>
+              </dir>
+              <dir name="autosave">
+                <dir name="langs">
+                  <file name="sl.js" hash="98699c8269c1e0a21635bb199ad28235"/>
+                </dir>
+              </dir>
+              <dir name="emotions">
+                <dir name="langs">
+                  <file name="sl_dlg.js" hash="892b265d24f430b759a45fef5ca9d6bc"/>
+                </dir>
+              </dir>
+              <dir name="fullpage">
+                <dir name="langs">
+                  <file name="sl_dlg.js" hash="2a37d857788f913785d0f1b4d5e9996f"/>
+                </dir>
+              </dir>
+              <dir name="media">
+                <dir name="langs">
+                  <file name="sl_dlg.js" hash="3e7c57abf6f822da53fb3b86bf86bc1d"/>
+                </dir>
+              </dir>
+              <dir name="paste">
+                <dir name="langs">
+                  <file name="sl_dlg.js" hash="30a2639f771f9dae91114cc2496c2732"/>
+                </dir>
+              </dir>
+              <dir name="searchreplace">
+                <dir name="langs">
+                  <file name="sl_dlg.js" hash="42a655ee215eec804213727308f6d981"/>
+                </dir>
+              </dir>
+              <dir name="style">
+                <dir name="langs">
+                  <file name="sl_dlg.js" hash="0e59b3aa107a3ec14cbe7d252ac9443e"/>
+                </dir>
+              </dir>
+              <dir name="table">
+                <dir name="langs">
+                  <file name="sl_dlg.js" hash="8904cbbe8ba71991d240beba2ba3017a"/>
+                </dir>
+              </dir>
+              <dir name="template">
+                <dir name="langs">
+                  <file name="sl_dlg.js" hash="635972a9e7bdcfb3592ad9e60673b54c"/>
+                </dir>
+              </dir>
+              <dir name="xhtmlxtras">
+                <dir name="langs">
+                  <file name="sl_dlg.js" hash="5bfc358621a0cdefd04a79496559e6f5"/>
+                </dir>
+              </dir>
+            </dir>
+            <dir name="themes">
+              <dir name="advanced">
+                <dir name="langs">
+                  <file name="sl_dlg.js" hash="57dfb1d929c2440db8fe6a8c31cb6daf"/>
+                  <file name="sl.js" hash="83e1706af1aab69d3556549225935849"/>
+                </dir>
+              </dir>
+              <dir name="simple">
+                <dir name="langs">
+                  <file name="sl.js" hash="07cd2f916829f57e7203c51f772099b3"/>
+                </dir>
+              </dir>
+            </dir>
+          </dir>
+        </dir>
+      </target>
+    </contents>
+    <compatible/>
+    <dependencies><required><php><min>5.4.0</min><max>8.0.0</max></php></required></dependencies>
+</package>
