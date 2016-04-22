@@ -1,5 +1,6 @@
 # Magento 1 Slovenian Translations
 
+[![Build Status](https://travis-ci.org/symfony-si/magento1-sl-si.svg?branch=master)](https://travis-ci.org/symfony-si/magento1-sl-si)
 ![Progress](http://progressed.io/bar/100?title=completed)
 [![Magento Connect Extension](https://img.shields.io/badge/Magento-Connnect-bc6538.svg)][magento-connect]
 [![Open Software License v. 3.0](https://img.shields.io/badge/License-OSL--3.0-blue.svg)][license]
