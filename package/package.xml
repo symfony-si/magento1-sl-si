@@ -10,13 +10,13 @@
     <description>Slovenian (Slovenia) - sl_SI language pack for Magento 1.x Community Edition</description>
     <notes>Slovenian translation files supporting Magento Community Editions up to 1.9.2.4. Translations include entire Magento Community edition - store's     front end, administration, emails and TinyMCE editor in administration forms. Translations follow Slovenian grammar and translation rules from Lugos.</notes>
     <authors><author><name>Peter Kokot</name><user>peterkokot</user><email>peterkokot@gmail.com</email></author></authors>
-    <date>2016-04-22</date>
-    <time>17:37:26</time>
+    <date>2016-05-12</date>
+    <time>11:54:34</time>
     <contents>
       <target name="magelocale">
         <dir name="sl_SI">
-          <file name="Mage_AdminNotification.csv" hash="1130afb15613355376d74bca55ce198a"/>
-          <file name="Mage_Adminhtml.csv" hash="8cf6c15c891bdae2ac0bffee7522250f"/>
+          <file name="Mage_AdminNotification.csv" hash="4d1c93fee20c0ec2fafdb02bafdeb059"/>
+          <file name="Mage_Adminhtml.csv" hash="6ad1363bf9197b6fff60ec947cc7bdbb"/>
           <file name="Mage_AmazonPayments.csv" hash="2e0e4b437d7964741028d610a10b3681"/>
           <file name="Mage_Api.csv" hash="0ae3e524f4764499c8dc5fa398b87dc7"/>
           <file name="Mage_Api2.csv" hash="5654798c3197d2760c8bb74185d9bbd9"/>
@@ -24,8 +24,8 @@
           <file name="Mage_Backup.csv" hash="71c7691960c17e1a74f2037883534a99"/>
           <file name="Mage_Bundle.csv" hash="d005bfefa4a56f0565e4c9887f94f8d3"/>
           <file name="Mage_Captcha.csv" hash="249e97dd6d7c4bc8360dcb733fc7cc0f"/>
-          <file name="Mage_Catalog.csv" hash="9c53f83c6ed450254c484271106167d7"/>
-          <file name="Mage_CatalogInventory.csv" hash="dddae5893a8f506e9851c5f796e71956"/>
+          <file name="Mage_Catalog.csv" hash="400a47824aaeee8086ccfda8735732e5"/>
+          <file name="Mage_CatalogInventory.csv" hash="aa3aa5aaacd125242d2371553be4dd22"/>
           <file name="Mage_CatalogRule.csv" hash="21eda90a6179f61953e197f5f73c6438"/>
           <file name="Mage_CatalogSearch.csv" hash="608cfd7bbef938078fb0424a1e8ce870"/>
           <file name="Mage_Centinel.csv" hash="27a2433b19e2e53ed5eb6a65b5a2e04b"/>
@@ -45,10 +45,10 @@
           <file name="Mage_Eav.csv" hash="35971b430d1e66ab34a1e519ca2a4309"/>
           <file name="Mage_GiftMessage.csv" hash="3b0ea21f1336d6f3055904aa4a931d5a"/>
           <file name="Mage_GoogleAnalytics.csv" hash="52b044d289a793e1079267dc9b5f1097"/>
-          <file name="Mage_GoogleBase.csv" hash="35e16c6bbc878575d9b166d2ee24c2d7"/>
+          <file name="Mage_GoogleBase.csv" hash="105236ddfb6d3ca8bf1a9226444d1478"/>
           <file name="Mage_GoogleCheckout.csv" hash="3bbde5ec052f0cb4cf0d3c647710618c"/>
           <file name="Mage_ImportExport.csv" hash="ecd4adb516567fc008f729a8e3cc1072"/>
-          <file name="Mage_Index.csv" hash="c37b930d6caa69d5dbbff4c92c391500"/>
+          <file name="Mage_Index.csv" hash="b817be5736aa0dc3e1d80b77846562db"/>
           <file name="Mage_Install.csv" hash="7b3c8dad47469fec3bb96324998d3550"/>
           <file name="Mage_Log.csv" hash="438d6222ddcfc6d252cf4fb07e0d002b"/>
           <file name="Mage_Media.csv" hash="a207b149777d272caf51ea18f6c5b8f1"/>
@@ -80,7 +80,7 @@
           <file name="Mage_Widget.csv" hash="9225bf04de9190c43ef9e4ba2c7678e7"/>
           <file name="Mage_Wishlist.csv" hash="36f1cd9a6e899c1039c1c489c88d7dcf"/>
           <file name="Mage_XmlConnect.csv" hash="3052bfecff7cb10a9391a9f146a183b9"/>
-          <file name="Phoenix_Moneybookers.csv" hash="e6e277c3e4af98a7bb35956a0a973ac6"/>
+          <file name="Phoenix_Moneybookers.csv" hash="17edff84187889cfd33d9af383638683"/>
           <dir name="template">
             <dir name="email">
               <dir name="html">
@@ -147,43 +147,6 @@
               <dir name="layout">
                 <dir name="slovenian">
                   <file name="localepacksl.xml" hash="0047bb1041f4af75f9d0784261ea209f"/>
-                </dir>
-              </dir>
-              <dir name="locale">
-                <dir name="sl_SI">
-                  <file name="translate.csv" hash="982310e70d4192fa3b83fb7d8e5447a7"/>
-                </dir>
-              </dir>
-            </dir>
-          </dir>
-        </dir>
-        <dir name="frontend">
-          <dir name="default">
-            <dir name="blank">
-              <dir name="locale">
-                <dir name="sl_SI">
-                  <file name="translate.csv" hash="2af7872a3100c02ec8b05221c15f5bde"/>
-                </dir>
-              </dir>
-            </dir>
-            <dir name="default">
-              <dir name="locale">
-                <dir name="sl_SI">
-                  <file name="translate.csv" hash="2af7872a3100c02ec8b05221c15f5bde"/>
-                </dir>
-              </dir>
-            </dir>
-            <dir name="iphone">
-              <dir name="locale">
-                <dir name="sl_SI">
-                  <file name="translate.csv" hash="d41d8cd98f00b204e9800998ecf8427e"/>
-                </dir>
-              </dir>
-            </dir>
-            <dir name="modern">
-              <dir name="locale">
-                <dir name="sl_SI">
-                  <file name="translate.csv" hash="2af7872a3100c02ec8b05221c15f5bde"/>
                 </dir>
               </dir>
             </dir>

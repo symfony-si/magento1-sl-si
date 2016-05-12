@@ -100,6 +100,45 @@ Go to `System->Configuration->General->Locale Options` and set `Locale` to
 `Current Configuration Scope`, select your website and set `Locale` to
 `slovenščina (Slovenija)`.
 
+**How to customize translations?**
+
+Replacing core translations in `app/locale/sl_SI` folder is not advised because
+extension's updates will overwrite files in it.
+
+If you'd like to replace some translations with your own, you can do so in the
+theme's `translation.csv` file. For administration add
+`app/design/adminhtml/default/default/locale/sl_SI/translate.csv` and override
+wanted translations. For your frontend theme add
+`app/design/frontend/{package}/{your_theme}/locale/sl_SI/translate.csv` and
+override translations.
+
+Some translation overrides might also need the module name prefix in
+`translate.csv`:
+
+```csv
+"Mage_Catalog::Add to Cart","Dodaj v voziček"
+```
+
+When creating modules, translation files are defined in the `config.xml`:
+
+```xml
+<adminhtml>
+    <translate>
+        <modules>
+            <Your_Module>
+                <files>
+                    <default>Your_Translation.csv</default>
+                </files>
+            </Your_Module>
+        </modules>
+    </translate>
+</adminhtml>
+```
+
+Email templates can be customized either in administration at
+`System->Transactional Emails` or by adding file templates in the theme's locale
+folder with the same pattern as in the `app/locale/sl_SI/template`.
+
 **How to use TinyMCE editor translations?**
 
 TinyMCE editor in Magento 1 is by default using English language. Slovenian
@@ -117,14 +156,6 @@ Language pack consists of the following files/folders:
 * Administration layout file:
 
   `app/design/adminhtml/default/default/layout/slovenian/localepacksl.xml`
-
-* Administration theme translation:
-
-  `app/design/adminhtml/default/default/locale/sl_SI/translation.csv`
-
-* Some frontend themes initial translation files:
-
-  `app/design/frontend/`
 
 * Magento global module configuration:
 

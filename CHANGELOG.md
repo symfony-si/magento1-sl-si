@@ -11,6 +11,9 @@ All notable changes to this project will be documented in this file. This projec
 
 * Fixed release script
 * Unit testing
+* FAQ about customizing translations
+* Theme translations customizable
+* Translation corrections
 * ...
 
 

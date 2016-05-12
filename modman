@@ -3,11 +3,6 @@ package/app/code/community/Slovenian/LocalePackSl/etc/config.xml               a
 
 # User Interface
 package/app/design/adminhtml/default/default/layout/slovenian/localepacksl.xml               app/design/adminhtml/default/default/layout/slovenian/localepacksl.xml
-package/app/design/adminhtml/default/default/locale/sl_SI/translate.csv               app/design/adminhtml/default/default/locale/sl_SI/translate.csv
-package/app/design/frontend/default/blank/locale/sl_SI/translate.csv               app/design/frontend/default/blank/locale/sl_SI/translate.csv
-package/app/design/frontend/default/default/locale/sl_SI/translate.csv               app/design/frontend/default/default/locale/sl_SI/translate.csv
-package/app/design/frontend/default/iphone/locale/sl_SI/translate.csv               app/design/frontend/default/iphone/locale/sl_SI/translate.csv
-package/app/design/frontend/default/modern/locale/sl_SI/translate.csv               app/design/frontend/default/modern/locale/sl_SI/translate.csv
 
 # Global Configuration
 package/app/etc/modules/Slovenian_LocalePackSl.xml               app/etc/modules/Slovenian_LocalePackSl.xml
