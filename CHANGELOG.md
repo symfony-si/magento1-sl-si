@@ -9,17 +9,23 @@ All notable changes to this project will be documented in this file. This projec
 
 ### Added
 
+* ...
+
+
+## [1.0.4] - 2016-05-12
+
+### Added
+
 * Fixed release script
 * Unit testing
 * FAQ about customizing translations
 * Theme translations customizable
 * Translation corrections
-* ...
 
 
 ## [1.0.3] - 2016-04-21
 
-## Added
+### Added
 
 * Translations for emails subjects
 
