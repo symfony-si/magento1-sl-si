@@ -29,6 +29,8 @@ class Package
         $this->version = $config['version'];
         $this->configFile = $config['configFile'];
         $this->packageFile = $config['packageFile'];
+        $this->packageDir = dirname($this->packageFile);
+        $this->rootDir = $this->packageDir.'/..';
 
         // Set package name
         $dom = new \DOMDocument;
@@ -43,20 +45,22 @@ class Package
      */
     public function build()
     {
+        // Patch config file first
         $this->patchConfigFile();
+        // Patch package.xml file
         $this->patchPackageFile();
 
-        $tarFile = __DIR__.'/../'.$this->name.'.tar';
-        $tgzFile = __DIR__.'/../'.$this->name.'.tgz';
+        $tarFile = $this->rootDir.'/'.$this->name.'.tar';
+        $tgzFile = $this->rootDir.'/'.$this->name.'.tgz';
 
         // Create tar archive
         $phar = new \PharData($tarFile);
         // add all files in the project
-        $phar->buildFromDirectory(__DIR__.'/../package');
+        $phar->buildFromDirectory($this->packageDir);
 
         // Compress .tar file to .tgz
         $phar->compress(\Phar::GZ, '.tgz');
-        rename($tgzFile, __DIR__.'/../'.$this->name.'-'.$this->version.'.tgz');
+        rename($tgzFile, $this->rootDir.'/'.$this->name.'-'.$this->version.'.tgz');
         $this->output[] = $this->name.'-'.$this->version.'.tgz created';
 
         // Both files (.tar and .tgz) exist. Remove the temporary .tar archive

@@ -44,4 +44,29 @@ class PackageTest extends \PHPUnit_Framework_TestCase
             '<version>1.0.4</version>', file_get_contents(vfsStream::url('myroot/app/code/community/Slovenian/LocalePackSl/etc/config.xml'))
         );
     }
+
+    public function testPatchPackageFile()
+    {
+        $patchPackageFile = self::getMethod('patchPackageFile');
+        $obj = new Package($this->config);
+        $patchPackageFile->invoke($obj);
+        $contents = file_get_contents(vfsStream::url('myroot/package.xml'));
+
+        $this->assertContains(
+            '<version>1.0.4</version>', $contents
+        );
+
+        $this->assertContains(
+            '<date>'.date('Y-m-d').'</date>', $contents
+        );
+
+        $this->assertContains(
+            '<time>'.date('H:i:s').'</time>', $contents
+        );
+    }
+
+    public function testBuild()
+    {
+        
+    }
 }
