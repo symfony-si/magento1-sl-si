@@ -9,6 +9,8 @@ All notable changes to this project will be documented in this file. This projec
 
 ### Added
 
+* Translation improvements
+* Release script now adds only files listed in package.xml
 * ...
 
 

@@ -65,8 +65,38 @@ class PackageTest extends \PHPUnit_Framework_TestCase
         );
     }
 
-    public function testBuild()
+    /**
+     * @dataProvider xmlProvider
+     */
+    public function testGetFileFullPath($xml, $fileName, $expectedFilePath)
     {
-        
+        $dom = new \DOMDocument;
+        $dom->load($xml);
+        $files = $dom->getElementsByTagName('file');
+        $nodeItem = null;
+        foreach($files as $file) {
+            if ($file->getAttribute('name') == $fileName) {
+                $nodeItem = $file;
+                break;
+            }
+        }
+
+        $method = self::getMethod('getFileFullPath');
+        $obj = new Package($this->config);
+        $filePath = $method->invoke($obj, $nodeItem);
+        $this->assertEquals($filePath, $expectedFilePath);
+    }
+
+    public function xmlProvider()
+    {
+        $file = __DIR__.'/Fixtures/package.xml';
+        return [
+            [$file, 'Mage_Adminhtml.csv', 'app/locale/sl_SI/Mage_Adminhtml.csv'],
+            [$file, 'Mage_AdminNotification.csv', 'app/locale/sl_SI/Mage_AdminNotification.csv'],
+            [$file, 'Slovenian_LocalePackSl.xml', 'app/etc/modules/Slovenian_LocalePackSl.xml'],
+            [$file, 'config.xml', 'app/code/community/Slovenian/LocalePackSl/etc/config.xml'],
+            [$file, 'localepacksl.xml', 'app/design/adminhtml/default/default/layout/slovenian/localepacksl.xml'],
+            [$file, 'setup.js', 'js/slovenian/setup.js'],
+        ];
     }
 }
