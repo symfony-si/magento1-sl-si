@@ -7,7 +7,7 @@
 "Daily","Dnevno"
 "Failure History Lifetime","Življenjska doba zgodovine neuspeha"
 "For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.","Za pravilne URL-je generirane med poganjanjem periodičnega opravila zagotovite, da so Splet > Zaščiteni in nezaščiteni osnovni URL-ji eksplicitno nastavljeni."
-"Generate Schedules Every","Generirajte načrtovana opravila vsakih"
+"Generate Schedules Every","Generiraj načrtovana opravila vsakih"
 "History Cleanup Every","Čiščenje zgodovine vsakih"
 "Hourly","Vsako uro"
 "Invalid callback: %s::%s does not exist","Neveljaven povratni klic: %s::%s ne obstaja"

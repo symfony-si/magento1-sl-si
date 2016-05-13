@@ -117,3 +117,5 @@
 "deleted","izbrisano"
 "enabled","omogočeno"
 "revoked","preklicano"
+"Integer. Launch cleanup in X OAuth requests. 0 (not recommended) - to disable cleanup","Celo število. Začni čiščenje pri X OAuth zahtevkih. 0 (ni priporočljivo) - za onemogočitev čiščenja"
+"Cleanup entries older than X minutes.","Čiščenje vnosov starejših od X minut."
