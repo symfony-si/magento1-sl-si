@@ -11,7 +11,7 @@
     <notes>Slovenian translation files supporting Magento Community Editions up to 1.9.2.4. Translations include entire Magento Community edition - store's     front end, administration, emails and TinyMCE editor in administration forms. Translations follow Slovenian grammar and translation rules from Lugos.</notes>
     <authors><author><name>Peter Kokot</name><user>peterkokot</user><email>peterkokot@gmail.com</email></author></authors>
     <date>2016-05-13</date>
-    <time>07:57:52</time>
+    <time>08:04:55</time>
     <contents>
       <target name="magelocale">
         <dir name="sl_SI">
