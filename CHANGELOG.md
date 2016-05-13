@@ -9,9 +9,15 @@ All notable changes to this project will be documented in this file. This projec
 
 ### Added
 
+* ...
+
+
+## [1.0.5] - 2016-05-13
+
+### Added
+
 * Translation improvements
 * Release script now adds only files listed in package.xml
-* ...
 
 
 ## [1.0.4] - 2016-05-12
