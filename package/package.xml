@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>locale_sl_si</name>
-    <version>1.0.5</version>
+    <version>1.0.6</version>
     <stability>stable</stability>
     <license uri="https://github.com/symfony-si/magento1-sl-si/blob/master/LICENSE">OSL-3.0</license>
     <channel>community</channel>
@@ -10,8 +10,8 @@
     <description>Slovenian (Slovenia) - sl_SI language pack for Magento 1.x Community Edition</description>
     <notes>Slovenian translation files supporting Magento Community Editions up to 1.9.2.4. Translations include entire Magento Community edition - store's     front end, administration, emails and TinyMCE editor in administration forms. Translations follow Slovenian grammar and translation rules from Lugos.</notes>
     <authors><author><name>Peter Kokot</name><user>peterkokot</user><email>peterkokot@gmail.com</email></author></authors>
-    <date>2016-05-13</date>
-    <time>08:04:55</time>
+    <date>2016-06-03</date>
+    <time>13:10:39</time>
     <contents>
       <target name="magelocale">
         <dir name="sl_SI">
@@ -135,7 +135,7 @@
         <dir name="Slovenian">
           <dir name="LocalePackSl">
             <dir name="etc">
-              <file name="config.xml" hash="5016daa0389ce2ac16bfe1f4873533d1"/>
+              <file name="config.xml" hash="9646de674a56a1ca3771d9fd536373e3"/>
             </dir>
           </dir>
         </dir>
@@ -252,5 +252,5 @@
       </target>
     </contents>
     <compatible/>
-    <dependencies><required><php><min>5.4.0</min><max>8.0.0</max></php></required></dependencies>
+    <dependencies><required><php><min>5.2.0</min><max>8.0.0</max></php></required></dependencies>
 </package>

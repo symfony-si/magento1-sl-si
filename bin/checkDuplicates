@@ -1,0 +1,30 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+function array_duplicates(array $array) {
+    return array_diff_assoc($array, array_unique($array));
+}
+
+try {
+    $files = scandir(__DIR__.'/../package/app/locale/sl_SI');
+    foreach ($files as $file) {
+        $translations = array_map('str_getcsv', file(__DIR__.'/../package/app/locale/sl_SI/'.$file));
+
+        $sources = [];
+        foreach ($translations as $translation) {
+            $sources[] = $translation[0];
+        }
+
+        $duplicates = array_duplicates($sources);
+        if (count($duplicates) !== 0) {
+            echo $file.":\n";
+            var_dump($duplicates);
+        }
+    }
+
+
+} catch (\Exception $e) {
+    echo 'Exception: '.$e;
+}

@@ -14,14 +14,14 @@ class PackageTest extends \PHPUnit_Framework_TestCase
     public function setUp()
     {
         vfsStreamWrapper::register();
-        $root = new vfsStreamDirectory('myroot');
+        $root = new vfsStreamDirectory('root');
         vfsStreamWrapper::setRoot($root);
-        vfsStream::copyFromFileSystem(__DIR__.'/../package', $root);
+        vfsStream::copyFromFileSystem(__DIR__.'/../package');
 
         $this->config = [
             'version' => '1.0.4',
-            'configFile' => vfsStream::url('myroot/app/code/community/Slovenian/LocalePackSl/etc/config.xml'),
-            'packageFile' => vfsStream::url('myroot/package.xml'),
+            'configFile' => vfsStream::url('root/app/code/community/Slovenian/LocalePackSl/etc/config.xml'),
+            'packageFile' => vfsStream::url('root/package.xml'),
         ];
     }
 
@@ -40,8 +40,9 @@ class PackageTest extends \PHPUnit_Framework_TestCase
         $obj = new Package($this->config);
         $patchConfigFile->invoke($obj);
 
+
         $this->assertContains(
-            '<version>1.0.4</version>', file_get_contents(vfsStream::url('myroot/app/code/community/Slovenian/LocalePackSl/etc/config.xml'))
+            '<version>1.0.4</version>', file_get_contents(vfsStream::url('root/app/code/community/Slovenian/LocalePackSl/etc/config.xml'))
         );
     }
 
@@ -50,7 +51,7 @@ class PackageTest extends \PHPUnit_Framework_TestCase
         $patchPackageFile = self::getMethod('patchPackageFile');
         $obj = new Package($this->config);
         $patchPackageFile->invoke($obj);
-        $contents = file_get_contents(vfsStream::url('myroot/package.xml'));
+        $contents = file_get_contents(vfsStream::url('root/package.xml'));
 
         $this->assertContains(
             '<version>1.0.4</version>', $contents
@@ -68,7 +69,7 @@ class PackageTest extends \PHPUnit_Framework_TestCase
     /**
      * @dataProvider xmlProvider
      */
-    public function testGetFileFullPath($xml, $fileName, $expectedFilePath)
+    public function testGetFilePath($xml, $fileName, $expectedFilePath)
     {
         $dom = new \DOMDocument;
         $dom->load($xml);
@@ -81,7 +82,7 @@ class PackageTest extends \PHPUnit_Framework_TestCase
             }
         }
 
-        $method = self::getMethod('getFileFullPath');
+        $method = self::getMethod('getFilePath');
         $obj = new Package($this->config);
         $filePath = $method->invoke($obj, $nodeItem);
         $this->assertEquals($filePath, $expectedFilePath);

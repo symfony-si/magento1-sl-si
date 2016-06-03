@@ -2,7 +2,6 @@
 
 namespace SymfonySi\LocalePack;
 
-
 class Archiver
 {
     /**
@@ -25,17 +24,22 @@ class Archiver
      */
     private $tmpName = 'package';
 
+    /**
+     * Archiver constructor.
+     *
+     * @param string $name
+     */
     public function __construct($name)
     {
-        $this->name = $name;
-
+        $this->name = basename($name);
         $this->rootDir = dirname($name);
     }
 
     /**
      * Add file.
      *
-     * @param string
+     * @param string $file
+     * @param string $fileInArchive
      */
     public function addFile($file, $fileInArchive)
     {

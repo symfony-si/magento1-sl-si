@@ -30,11 +30,6 @@ class Package
     private $packageDir;
 
     /**
-     * @var string Project directory.
-     */
-    private $rootDir;
-
-    /**
      * @var array Output log messages
      */
     private $log = [];
@@ -50,7 +45,6 @@ class Package
         $this->configFile = $config['configFile'];
         $this->packageFile = $config['packageFile'];
         $this->packageDir = dirname($this->packageFile);
-        $this->rootDir = $this->packageDir.'/..';
 
         // Set package name
         $dom = new \DOMDocument;
@@ -75,12 +69,12 @@ class Package
         $archiver = new Archiver($this->name.'-'.$this->version.'.tgz');
 
         // add all files defined in package.xml file
-        foreach($files as $file) {
-            $archiver->addFile($file, str_replace(realpath($this->packageDir), '', $file));
+        foreach ($files as $file) {
+            $archiver->addFile($file, str_replace($this->packageDir, '', $file));
         }
 
         // add package.xml
-        $archiver->addFile(realpath($this->packageFile), str_replace(realpath($this->packageDir), '', realpath($this->packageFile)));
+        $archiver->addFile($this->packageFile, str_replace($this->packageDir, '', $this->packageFile));
 
         $archiver->compress();
 
@@ -94,7 +88,7 @@ class Package
      */
     private function patchConfigFile()
     {
-        $dom = new \DOMDocument;
+        $dom = new \DOMDocument();
         $dom->load($this->configFile);
         $dom->getElementsByTagName('version')->item(0)->nodeValue = $this->version;
         $dom->saveXML();
@@ -115,13 +109,13 @@ class Package
         $dom->load($this->packageFile);
 
         $files = $dom->getElementsByTagName('file');
-        foreach($files as $file) {
-            $filePath = __DIR__.'/../package/'.$this->getFileFullPath($file);
+        foreach ($files as $file) {
+            $filePath = $this->packageDir.'/'.$this->getFilePath($file);
 
             if (file_exists($filePath)) {
                 $md5 = md5_file($filePath);
                 $file->setAttribute('hash', $md5);
-                $filesInPackage[] = realpath($filePath);
+                $filesInPackage[] = $filePath;
             } else {
                 $this->log[] = 'Warning: File '.basename($filePath).' not found.';
             }
@@ -142,17 +136,17 @@ class Package
     }
 
     /**
-     * Get file path for file from DoMNode.
+     * Get file path for file from DOMNode.
      *
      * @param \DOMNode
      *
      * @return string
      */
-    private function getFileFullPath(\DOMNode $file)
+    private function getFilePath(\DOMNode $file)
     {
         $curNode = $file->parentNode;
         $filePath = $file->getAttribute('name');
-        while($curNode->nodeName == 'dir') {
+        while ($curNode->nodeName == 'dir') {
             $filePath = $curNode->getAttribute('name').'/'.$filePath;
             $curNode = $curNode->parentNode;
         }
@@ -161,13 +155,13 @@ class Package
         $targetDir = '';
         if ($target == 'magecommunity') {
             $targetDir = 'app/code/community';
-        } else if ($target == 'magedesign') {
+        } elseif ($target == 'magedesign') {
             $targetDir = 'app/design';
-        } else if ($target == 'magelocale') {
+        } elseif ($target == 'magelocale') {
             $targetDir = 'app/locale';
-        } else if ($target == 'mageetc') {
+        } elseif ($target == 'mageetc') {
             $targetDir = 'app/etc';
-        } else if ($target == 'mageweb') {
+        } elseif ($target == 'mageweb') {
             $targetDir = '';
         }
 

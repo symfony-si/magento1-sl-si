@@ -145,6 +145,14 @@ TinyMCE editor in Magento 1 is by default using English language. Slovenian
 translation for TinyMCE is also enabled if you've followed one of the above
 installation procedures.
 
+**Which PHP versions are supported?**
+
+This sl_SI language pack supports all of the latest PHP versions including 5.3.
+Magento however [recommends](http://devdocs.magento.com/guides/m1x/system-requirements.html)
+to use PHP 5.4 or PHP 5.5 for current shipping versions (1.9.x). Magento 1 works
+fine also on PHP 7, however some minor [hacks](http://inchoo.net/magento/its-alive/)
+are required. Consider upgrading your server to PHP 7.
+
 **Which files/folders are included in the package?**
 
 Language pack consists of the following files/folders:
