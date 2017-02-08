@@ -3,8 +3,9 @@
 namespace SymfonySi\Test;
 
 use SymfonySi\LocalePack\Archiver;
+use PHPUnit\Framework\TestCase;
 
-class ArchiverTest extends \PHPUnit_Framework_TestCase
+class ArchiverTest extends TestCase
 {
     public function setUp()
     {

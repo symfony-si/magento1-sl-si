@@ -75,6 +75,7 @@
                 <file name="Mage_Sitemap.csv" hash="0969f2a8a613b8552fe096d18e736809"/>
                 <file name="Mage_Tag.csv" hash="2702444c96af99bba147645135c0ec56"/>
                 <file name="Mage_Tax.csv" hash="032030823411c647ef8de7022c841d62"/>
+                <file name="Mage_Uploader.csv" hash="cc2f1abba64700b57eb7abbbba3349fe"/>
                 <file name="Mage_Usa.csv" hash="5535829c91fc75ffeb40d7c15865c927"/>
                 <file name="Mage_Weee.csv" hash="f244afe5e779dcd06abe8f3e6b499d0a"/>
                 <file name="Mage_Widget.csv" hash="9225bf04de9190c43ef9e4ba2c7678e7"/>
@@ -119,6 +120,7 @@
                         <file name="newsletter_subscr_success.html" hash="35740f98715f8b41ab541c810fd4f360"/>
                         <file name="newsletter_unsub_success.html" hash="d515cf547974a3ba78a2e32e49c413bc"/>
                         <file name="password_new.html" hash="474d05c970692d4799559e2b47d8de1a"/>
+                        <file name="password_or_email_changed.html" hash="977a066d55552ec890d48e2cf2217eb4"/>
                         <file name="payment_failed.html" hash="2320ded716756a97843d47b5973d07ad"/>
                         <file name="product_alert_cron_error.html" hash="39d24fa9beecd58233ab859d4983c117"/>
                         <file name="product_price_alert.html" hash="5026878e4e13e462af427a50226c8b57"/>

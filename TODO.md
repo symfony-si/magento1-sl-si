@@ -5,4 +5,3 @@
     * adminhtml.csv: Kako je pravilno "Flat Catalog"
 
 * TinyMCE nima prevedenega naslova popupa pri plugin-u "Insert variable"
-

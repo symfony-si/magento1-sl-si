@@ -6,8 +6,9 @@ use SymfonySi\LocalePack\Package;
 use org\bovigo\vfs\vfsStream;
 use org\bovigo\vfs\vfsStreamWrapper;
 use org\bovigo\vfs\vfsStreamDirectory;
+use PHPUnit\Framework\TestCase;
 
-class PackageTest extends \PHPUnit_Framework_TestCase
+class PackageTest extends TestCase
 {
     protected $config;
 

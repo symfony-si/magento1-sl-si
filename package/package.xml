@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>locale_sl_si</name>
-    <version>1.0.6</version>
+    <version>1.0.7</version>
     <stability>stable</stability>
     <license uri="https://github.com/symfony-si/magento1-sl-si/blob/master/LICENSE">OSL-3.0</license>
     <channel>community</channel>
@@ -10,13 +10,13 @@
     <description>Slovenian (Slovenia) - sl_SI language pack for Magento 1.x Community Edition</description>
     <notes>Slovenian translation files supporting Magento Community Editions up to 1.9.2.4. Translations include entire Magento Community edition - store's     front end, administration, emails and TinyMCE editor in administration forms. Translations follow Slovenian grammar and translation rules from Lugos.</notes>
     <authors><author><name>Peter Kokot</name><user>peterkokot</user><email>peterkokot@gmail.com</email></author></authors>
-    <date>2016-06-03</date>
-    <time>13:10:39</time>
+    <date>2017-02-09</date>
+    <time>00:01:09</time>
     <contents>
       <target name="magelocale">
         <dir name="sl_SI">
           <file name="Mage_AdminNotification.csv" hash="09d07d2f3f9168504cc411a1fb5444d3"/>
-          <file name="Mage_Adminhtml.csv" hash="2beb9e0f59d864cf6a0f66d3047f97fe"/>
+          <file name="Mage_Adminhtml.csv" hash="52b8cfcd43b42503a772885107dd3bf4"/>
           <file name="Mage_AmazonPayments.csv" hash="2e0e4b437d7964741028d610a10b3681"/>
           <file name="Mage_Api.csv" hash="0ae3e524f4764499c8dc5fa398b87dc7"/>
           <file name="Mage_Api2.csv" hash="8bb4a14a58f1df332d5f39b1c98f2fca"/>
@@ -24,21 +24,21 @@
           <file name="Mage_Backup.csv" hash="66803d3e4f34fb4261d76a888c0675de"/>
           <file name="Mage_Bundle.csv" hash="220e394e0774815f4818a91fc5cd26f2"/>
           <file name="Mage_Captcha.csv" hash="249e97dd6d7c4bc8360dcb733fc7cc0f"/>
-          <file name="Mage_Catalog.csv" hash="baee941a9aa1c1399a1df471feeb2033"/>
-          <file name="Mage_CatalogInventory.csv" hash="ea57da2dbe5b1a1b4993fa8b66dd3ede"/>
+          <file name="Mage_Catalog.csv" hash="d8df8f0d8f41c99c3376de3dbc71d806"/>
+          <file name="Mage_CatalogInventory.csv" hash="fbe529e945f3d21439f5731fd7b17b7f"/>
           <file name="Mage_CatalogRule.csv" hash="46073d0769aca14d0df9166b7dd3b68c"/>
           <file name="Mage_CatalogSearch.csv" hash="a1e7caf954fb64ea26d619615d754bdb"/>
           <file name="Mage_Centinel.csv" hash="27a2433b19e2e53ed5eb6a65b5a2e04b"/>
           <file name="Mage_Checkout.csv" hash="e06d50f5fc3f963164f0ff6b0bc8b91f"/>
           <file name="Mage_Cms.csv" hash="330328ecb5191891b950aa54383cf93a"/>
           <file name="Mage_Compiler.csv" hash="768e875e3caa1d077f324518497ac73e"/>
-          <file name="Mage_ConfigurableSwatches.csv" hash="2cd127fa9f4aa12b8ab96e8b8d7e37a8"/>
+          <file name="Mage_ConfigurableSwatches.csv" hash="69ddd4e0e6eeab53cf19b6621914c3c6"/>
           <file name="Mage_Connect.csv" hash="f8164c7e5ad7f17c1f4f8aeaad808433"/>
           <file name="Mage_Contacts.csv" hash="266e022a6060cc90fefbf7e562d0a421"/>
-          <file name="Mage_Core.csv" hash="6d590230bfd0d8c208c0c23e3e14f271"/>
+          <file name="Mage_Core.csv" hash="4c631a6ed90c700c85b707dc5d9caec0"/>
           <file name="Mage_Cron.csv" hash="fa7b65a5f79801c64b76613ba76fe64f"/>
           <file name="Mage_CurrencySymbol.csv" hash="90b42385c8cea2c257aad67fb1ebd979"/>
-          <file name="Mage_Customer.csv" hash="d745d19990dda841f9fd9f36295866f4"/>
+          <file name="Mage_Customer.csv" hash="72dcff049aaadc554e6a7415a965294d"/>
           <file name="Mage_Dataflow.csv" hash="b282ca09bde3ddac1df57b74c8efc41a"/>
           <file name="Mage_Directory.csv" hash="3708dfac14d643d53c13a0ae9850e880"/>
           <file name="Mage_Downloadable.csv" hash="799c5649c362cb1cd03c8f89ff8f4be9"/>
@@ -47,14 +47,14 @@
           <file name="Mage_GoogleAnalytics.csv" hash="52b044d289a793e1079267dc9b5f1097"/>
           <file name="Mage_GoogleBase.csv" hash="105236ddfb6d3ca8bf1a9226444d1478"/>
           <file name="Mage_GoogleCheckout.csv" hash="71a82ba44446c96d9bb018262b99132b"/>
-          <file name="Mage_ImportExport.csv" hash="89acffbdfeb7c26fb3e1c8f441912824"/>
+          <file name="Mage_ImportExport.csv" hash="cadcb9a74893dd4a88e1b85d2ae5fc73"/>
           <file name="Mage_Index.csv" hash="401de814efe1407e3cd56b6e965bc7c0"/>
           <file name="Mage_Install.csv" hash="5ed50f08aee11a30991a68fd5a667744"/>
           <file name="Mage_Log.csv" hash="e95444255f6b4bcb8dd527a2aa46f90e"/>
           <file name="Mage_Media.csv" hash="a207b149777d272caf51ea18f6c5b8f1"/>
           <file name="Mage_Newsletter.csv" hash="2fd2a79be2c903e68c24c1eabf6b001c"/>
           <file name="Mage_Oauth.csv" hash="03912b316edb93a83eff7bad0d8b55c1"/>
-          <file name="Mage_Page.csv" hash="3517364a9258f42f27787da79358d7a7"/>
+          <file name="Mage_Page.csv" hash="bde11b3c5ec768ccaee7e53cd28573f9"/>
           <file name="Mage_PageCache.csv" hash="b79429df6b699b81a68daa26a3a71742"/>
           <file name="Mage_Paygate.csv" hash="161547aeea3c8d8d5c3a931af08f231d"/>
           <file name="Mage_Payment.csv" hash="7a536be95d40322117bd5632809238ae"/>
@@ -66,7 +66,7 @@
           <file name="Mage_Rating.csv" hash="dff8cf79665f611435a1933be388f3a2"/>
           <file name="Mage_Reports.csv" hash="aabbee0a08dd94cbe6f655889d0157d3"/>
           <file name="Mage_Review.csv" hash="8ecf5b6c9eb92cc44b4f6f2452c34ebe"/>
-          <file name="Mage_Rss.csv" hash="049b28a016f307e9fbaf9f2e8cb8b7ff"/>
+          <file name="Mage_Rss.csv" hash="bdf195a98cde92cdcc3b76177bc3e187"/>
           <file name="Mage_Rule.csv" hash="b8f5204d268b8e86ceeb5b737828fa89"/>
           <file name="Mage_Sales.csv" hash="fa23efdd688817e865ae93bf595f0d71"/>
           <file name="Mage_SalesRule.csv" hash="2da1bcb17f61ad0b018ba92a6328db2f"/>
@@ -75,7 +75,8 @@
           <file name="Mage_Sitemap.csv" hash="0969f2a8a613b8552fe096d18e736809"/>
           <file name="Mage_Tag.csv" hash="2702444c96af99bba147645135c0ec56"/>
           <file name="Mage_Tax.csv" hash="032030823411c647ef8de7022c841d62"/>
-          <file name="Mage_Usa.csv" hash="5535829c91fc75ffeb40d7c15865c927"/>
+          <file name="Mage_Uploader.csv" hash="cc2f1abba64700b57eb7abbbba3349fe"/>
+          <file name="Mage_Usa.csv" hash="015ec8be6d4cbbc940d90efc92c45a52"/>
           <file name="Mage_Weee.csv" hash="f244afe5e779dcd06abe8f3e6b499d0a"/>
           <file name="Mage_Widget.csv" hash="9225bf04de9190c43ef9e4ba2c7678e7"/>
           <file name="Mage_Wishlist.csv" hash="70293036a989a039b77ba43d029fb4dd"/>
@@ -119,6 +120,7 @@
               <file name="newsletter_subscr_success.html" hash="35740f98715f8b41ab541c810fd4f360"/>
               <file name="newsletter_unsub_success.html" hash="d515cf547974a3ba78a2e32e49c413bc"/>
               <file name="password_new.html" hash="474d05c970692d4799559e2b47d8de1a"/>
+              <file name="password_or_email_changed.html" hash="977a066d55552ec890d48e2cf2217eb4"/>
               <file name="payment_failed.html" hash="2320ded716756a97843d47b5973d07ad"/>
               <file name="product_alert_cron_error.html" hash="39d24fa9beecd58233ab859d4983c117"/>
               <file name="product_price_alert.html" hash="5026878e4e13e462af427a50226c8b57"/>
@@ -135,7 +137,7 @@
         <dir name="Slovenian">
           <dir name="LocalePackSl">
             <dir name="etc">
-              <file name="config.xml" hash="9646de674a56a1ca3771d9fd536373e3"/>
+              <file name="config.xml" hash="96f443439e2c6f5ba4302f5f8885e3f3"/>
             </dir>
           </dir>
         </dir>

@@ -68,6 +68,7 @@ package/app/locale/sl_SI/Mage_Shipping.csv               app/locale/sl_SI/Mage_S
 package/app/locale/sl_SI/Mage_Sitemap.csv               app/locale/sl_SI/Mage_Sitemap.csv
 package/app/locale/sl_SI/Mage_Tag.csv               app/locale/sl_SI/Mage_Tag.csv
 package/app/locale/sl_SI/Mage_Tax.csv               app/locale/sl_SI/Mage_Tax.csv
+package/app/locale/sl_SI/Mage_Uploader.csv               app/locale/sl_SI/Mage_Uploader.csv
 package/app/locale/sl_SI/Mage_Usa.csv               app/locale/sl_SI/Mage_Usa.csv
 package/app/locale/sl_SI/Mage_Weee.csv               app/locale/sl_SI/Mage_Weee.csv
 package/app/locale/sl_SI/Mage_Widget.csv               app/locale/sl_SI/Mage_Widget.csv
@@ -108,6 +109,7 @@ package/app/locale/sl_SI/template/email/newsletter_subscr_confirm.html          
 package/app/locale/sl_SI/template/email/newsletter_subscr_success.html               app/locale/sl_SI/template/email/newsletter_subscr_success.html
 package/app/locale/sl_SI/template/email/newsletter_unsub_success.html               app/locale/sl_SI/template/email/newsletter_unsub_success.html
 package/app/locale/sl_SI/template/email/password_new.html               app/locale/sl_SI/template/email/password_new.html
+package/app/locale/sl_SI/template/email/password_or_email_changed.html               app/locale/sl_SI/template/email/password_or_email_changed.html
 package/app/locale/sl_SI/template/email/payment_failed.html               app/locale/sl_SI/template/email/payment_failed.html
 package/app/locale/sl_SI/template/email/product_alert_cron_error.html               app/locale/sl_SI/template/email/product_alert_cron_error.html
 package/app/locale/sl_SI/template/email/product_price_alert.html               app/locale/sl_SI/template/email/product_price_alert.html
