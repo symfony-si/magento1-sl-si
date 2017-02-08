@@ -42,6 +42,7 @@
 "Rule price","Pravilo cene"
 "Set Items' Status to be In Stock When Order is Cancelled","Nastavi status elementov, da so na zalogi, ko je naročilo preklicano"
 "Some of the products are currently out of stock.","Nekateri produkti trenutno niso na zalogi."
+"Some of the products are not available","Nekateri produkti niso na voljo"
 "Some of the products cannot be ordered in requested quantity.","Nekaterih produktov ni mogoče naročiti v zahtevani količini."
 "Some of the products cannot be ordered in the requested quantity.","Nekaterih produktov ni mogoče naročiti v zahtevani količini."
 "Stock Options","Možnosti zaloge"
