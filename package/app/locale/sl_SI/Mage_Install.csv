@@ -109,7 +109,7 @@
 "The database server version doesn\'t match system requirements (required: %s, actual: %s).","Verzija strežnika podatkovne baze se ne ujema z zahtevami sistema (zahtevano: %s, dejansko: %s)."
 "The table prefix should contain only letters (a-z), numbers (0-9) or underscores (_), the first character should be a letter.","Predpona tabele bi morala vsebovati samo črke (a-z), številke (0-9) ali podčrtaje (_), prvi znak bi morala biti črka."
 "There was a problem installing Magento packages. Please read the log, correct errors and try again.","Pri nameščanju paketov Magento je prišlo do težave. Preberite dnevnik, popravite napake in poskusite ponovno."
-"Time Zone","Časovno območje"
+"Time Zone","Časovni pas"
 "Use Secure URLs (SSL)","Uporabite varne URL-je (SSL)"
 "Use Web Server (Apache) Rewrites","Uporabite prepisovanje spletnega strežnika (Apache)"
 "User Name","Ime uporabnika"
