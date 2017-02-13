@@ -171,7 +171,7 @@ Language pack consists of the following files/folders:
 
 * Slovenian translations for front end, administration and emails:
 
-  `app/locale/sl_SI/`:
+  `app/locale/sl_SI/`
 
 * Adjusted TinyMCE setup:
 
