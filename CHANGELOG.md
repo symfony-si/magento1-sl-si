@@ -11,6 +11,12 @@ All notable changes to this project will be documented in this file. This projec
 
 * ...
 
+## [1.0.8] - 2017-02-13
+
+### Added
+
+* Fix translations for flat catalog and timezone
+
 
 ## [1.0.7] - 2017-02-09
 

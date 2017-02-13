@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>locale_sl_si</name>
-    <version>1.0.7</version>
+    <version>1.0.8</version>
     <stability>stable</stability>
     <license uri="https://github.com/symfony-si/magento1-sl-si/blob/master/LICENSE">OSL-3.0</license>
     <channel>community</channel>
@@ -10,13 +10,13 @@
     <description>Slovenian (Slovenia) - sl_SI language pack for Magento 1.x Community Edition</description>
     <notes>Slovenian translation files supporting Magento Community Editions up to 1.9.2.4. Translations include entire Magento Community edition - store's     front end, administration, emails and TinyMCE editor in administration forms. Translations follow Slovenian grammar and translation rules from Lugos.</notes>
     <authors><author><name>Peter Kokot</name><user>peterkokot</user><email>peterkokot@gmail.com</email></author></authors>
-    <date>2017-02-09</date>
-    <time>00:01:09</time>
+    <date>2017-02-13</date>
+    <time>17:03:18</time>
     <contents>
       <target name="magelocale">
         <dir name="sl_SI">
           <file name="Mage_AdminNotification.csv" hash="09d07d2f3f9168504cc411a1fb5444d3"/>
-          <file name="Mage_Adminhtml.csv" hash="52b8cfcd43b42503a772885107dd3bf4"/>
+          <file name="Mage_Adminhtml.csv" hash="3b8bfd7fcd6154d2de1ebd468c4deb53"/>
           <file name="Mage_AmazonPayments.csv" hash="2e0e4b437d7964741028d610a10b3681"/>
           <file name="Mage_Api.csv" hash="0ae3e524f4764499c8dc5fa398b87dc7"/>
           <file name="Mage_Api2.csv" hash="8bb4a14a58f1df332d5f39b1c98f2fca"/>
@@ -24,7 +24,7 @@
           <file name="Mage_Backup.csv" hash="66803d3e4f34fb4261d76a888c0675de"/>
           <file name="Mage_Bundle.csv" hash="220e394e0774815f4818a91fc5cd26f2"/>
           <file name="Mage_Captcha.csv" hash="249e97dd6d7c4bc8360dcb733fc7cc0f"/>
-          <file name="Mage_Catalog.csv" hash="d8df8f0d8f41c99c3376de3dbc71d806"/>
+          <file name="Mage_Catalog.csv" hash="6bf9e8be4655c53d90d755daf1a6616b"/>
           <file name="Mage_CatalogInventory.csv" hash="fbe529e945f3d21439f5731fd7b17b7f"/>
           <file name="Mage_CatalogRule.csv" hash="46073d0769aca14d0df9166b7dd3b68c"/>
           <file name="Mage_CatalogSearch.csv" hash="a1e7caf954fb64ea26d619615d754bdb"/>
@@ -49,7 +49,7 @@
           <file name="Mage_GoogleCheckout.csv" hash="71a82ba44446c96d9bb018262b99132b"/>
           <file name="Mage_ImportExport.csv" hash="cadcb9a74893dd4a88e1b85d2ae5fc73"/>
           <file name="Mage_Index.csv" hash="401de814efe1407e3cd56b6e965bc7c0"/>
-          <file name="Mage_Install.csv" hash="5ed50f08aee11a30991a68fd5a667744"/>
+          <file name="Mage_Install.csv" hash="ba1b28ba214c72e1e2dec8df880f4b6e"/>
           <file name="Mage_Log.csv" hash="e95444255f6b4bcb8dd527a2aa46f90e"/>
           <file name="Mage_Media.csv" hash="a207b149777d272caf51ea18f6c5b8f1"/>
           <file name="Mage_Newsletter.csv" hash="2fd2a79be2c903e68c24c1eabf6b001c"/>
@@ -137,7 +137,7 @@
         <dir name="Slovenian">
           <dir name="LocalePackSl">
             <dir name="etc">
-              <file name="config.xml" hash="96f443439e2c6f5ba4302f5f8885e3f3"/>
+              <file name="config.xml" hash="1484f89b95dcfdf7bd30abc756f0f5ca"/>
             </dir>
           </dir>
         </dir>
