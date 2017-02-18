@@ -3,10 +3,18 @@
 [![Build Status](https://travis-ci.org/symfony-si/magento1-sl-si.svg?branch=master)](https://travis-ci.org/symfony-si/magento1-sl-si)
 ![Progress](http://progressed.io/bar/100?title=completed)
 [![Magento Connect Extension](https://img.shields.io/badge/Magento-Connnect-bc6538.svg)][magento-connect]
+[![Magento Marketplace](https://img.shields.io/badge/Magento-Marketplace-orange.svg)][marketplace]
 [![Open Software License v. 3.0](https://img.shields.io/badge/License-OSL--3.0-blue.svg)][license]
 [![Latest Release](https://img.shields.io/github/release/symfony-si/magento1-sl-si.svg)][latest-release]
 
-**About**
+* [About](#about)
+* [Installation](#installation)
+* [FAQ - Frequently Asked Questions](#faq)
+* [See Also](#see-also)
+* [Magento 2](#magento-2)
+* [Contributing and License](#contributing-and-license)
+
+## About
 
 Slovenian (Slovenia) - `sl_SI` open source language pack for [Magento][magento]
 Community Edition 1.x. Translations include entire Magento Community edition - store's
@@ -16,26 +24,6 @@ Translations follow Slovenian grammar and translation rules from [Lugos][lugos].
 
 Supported Magento CE versions: `1.9.3.2`, `1.9.3.1`, `1.9.3.0`, `1.9.2.4`, `1.9.2.3`,
 `1.9.2.2`, `1.9.2.1`, `1.9.2.0`, `1.9.1.1` and `1.9.1.0`.
-
-Development of the extension is happening on [GitHub][github-project].
-
----
-
-**O prevodu**
-
-Slovenski (Slovenija) - `sl_SI` odprto kodni jezikovni paket za [Magento][magento]
-Community Edition 1.x. Prevodi vključujejo celotno izdajo Magento Community - ospredje
-trgovine, administracijo, e-pošte in urejevalnik TinyMCE v administracijskih
-obrazcih.
-
-Prevodi sledijo slovenski slovnici in pravilom slovenjenja [Lugos][lugos].
-
-Podprte Magento CE verzije: `1.9.3.2`, `1.9.3.1`, `1.9.3.0`, `1.9.2.4`, `1.9.2.3`,
-`1.9.2.2`, `1.9.2.1`, `1.9.2.0`, `1.9.1.1` in `1.9.1.0`.
-
-Razvoj razširitve poteka na [GitHub-u][github-project].
-
----
 
 ## Installation
 
@@ -219,3 +207,4 @@ This repository is released under the [Open Software License v. 3.0][license].
 [lugos]: https://wiki.lugos.si/slovenjenje:pravila
 [github-project]: https://github.com/symfony-si/magento1-sl-si
 [magento]: https://magento.com/
+[marketplace]: https://marketplace.magento.com/peterkokot-locale-sl-si.html
