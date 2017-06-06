@@ -410,3 +410,4 @@
 "database ""%s""","podatkovna baza ""%s"""
 "If present, this will be included in all Transactional Emails","Če je prisotno, bo vključeno v vseh transakcijskih e-poštah"
 "For Windows server only.","Samo za Windows strežnike."
+"Invalid image.","Neveljavna slika."

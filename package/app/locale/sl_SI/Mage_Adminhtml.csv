@@ -1443,3 +1443,5 @@
 "Web Services definition files (api.xml).","Datoteke definicij spletnih storitev (api.xml)."
 "Web Services definition files (api2.xml).","Datoteke definicij spletnih storitev (api2.xml)."
 "JavaScript Template","Predloga JavaScript"
+"Symlinks are enabled. This may expose security risks. We strongly recommend to disable them.","Simbolične povezave so omogočene. To lahko izpostavi varnostno tveganje. Močno priporočamo, da se jih onemogoči."
+"You did not sign in correctly or your account is temporarily disabled.","Niste se ustrezno prijavili, ali pa je vaš račun začasno onemogočen."
