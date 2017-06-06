@@ -16,8 +16,8 @@
     },
     "require-dev": {
         "php": ">=7.0.0",
-        "league/commonmark": "^0.13",
-        "phpunit/phpunit": "^6.0",
+        "league/commonmark": "^0.15.4",
+        "phpunit/phpunit": "^6.2",
         "mikey179/vfsStream": "^1"
     },
     "autoload-dev": {
