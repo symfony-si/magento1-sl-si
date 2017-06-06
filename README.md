@@ -22,8 +22,8 @@ front end, administration, emails and TinyMCE editor in administration forms.
 
 Translations follow Slovenian grammar and translation rules from [Lugos][lugos].
 
-Supported Magento CE versions: `1.9.3.2`, `1.9.3.1`, `1.9.3.0`, `1.9.2.4`, `1.9.2.3`,
-`1.9.2.2`, `1.9.2.1`, `1.9.2.0`, `1.9.1.1` and `1.9.1.0`.
+Supported Magento CE versions: `1.9.3.3`, `1.9.3.2`, `1.9.3.1`, `1.9.3.0`,
+`1.9.2.4`, `1.9.2.3`, `1.9.2.2`, `1.9.2.1`, `1.9.2.0`, `1.9.1.1` and `1.9.1.0`.
 
 ## Installation
 
