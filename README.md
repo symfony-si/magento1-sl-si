@@ -40,7 +40,7 @@ That way possible future updates will be easier to manage.
 Latest package for download is available on [GitHub][latest-release].
 
 From the Magento administration back end visit *System->Magento Connect->Magento Connect Manager*
-and use the *Direct package file upload* forum to upload the downloaded tgz
+and use the *Direct package file upload* form to upload the downloaded tgz
 package.
 
 ![Direct file upload](https://raw.githubusercontent.com/symfony-si/magento1-sl-si/master/img/magentoconnect.png)
@@ -199,8 +199,16 @@ provides more info how to help out.
 
 This repository is released under the [Open Software License v. 3.0][license].
 
+**Magento administration:**
+
 ![Screenshot 1](https://raw.githubusercontent.com/symfony-si/magento1-sl-si/master/img/screenshot_1.png)
+
+**Magento administration:**
+
 ![Screenshot 2](https://raw.githubusercontent.com/symfony-si/magento1-sl-si/master/img/screenshot_2.png)
+
+**Tiny MCE editor:**
+
 ![Screenshot 3](https://raw.githubusercontent.com/symfony-si/magento1-sl-si/master/img/screenshot_3.png)
 
 [latest-release]: https://github.com/symfony-si/magento1-sl-si/releases/latest
