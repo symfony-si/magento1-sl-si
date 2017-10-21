@@ -1,18 +1,17 @@
-# Magento 1 Slovenian Translations
+# Magento 1 Slovenian translations
 
 [![Build Status](https://travis-ci.org/symfony-si/magento1-sl-si.svg?branch=master)](https://travis-ci.org/symfony-si/magento1-sl-si)
 ![Progress](http://progressed.io/bar/100?title=completed)
-[![Magento Connect Extension](https://img.shields.io/badge/Magento-Connnect-bc6538.svg)][magento-connect]
 [![Magento Marketplace](https://img.shields.io/badge/Magento-Marketplace-orange.svg)][marketplace]
 [![Open Software License v. 3.0](https://img.shields.io/badge/License-OSL--3.0-blue.svg)][license]
 [![Latest Release](https://img.shields.io/github/release/symfony-si/magento1-sl-si.svg)][latest-release]
 
 * [About](#about)
 * [Installation](#installation)
-* [FAQ - Frequently Asked Questions](#faq)
-* [See Also](#see-also)
+* [FAQ - Frequently asked questions](#faq)
+* [See also](#see-also)
 * [Magento 2](#magento-2)
-* [Contributing and License](#contributing-and-license)
+* [Contributing and license](#contributing-and-license)
 
 ## About
 
@@ -22,33 +21,38 @@ front end, administration, emails and TinyMCE editor in administration forms.
 
 Translations follow Slovenian grammar and translation rules from [Lugos][lugos].
 
-Supported Magento CE versions: `1.9.3.3`, `1.9.3.2`, `1.9.3.1`, `1.9.3.0`,
-`1.9.2.4`, `1.9.2.3`, `1.9.2.2`, `1.9.2.1`, `1.9.2.0`, `1.9.1.1` and `1.9.1.0`.
+Supported Magento CE versions: `1.9.3.6`, `1.9.3.4`, `1.9.3.3`, `1.9.3.2`,
+`1.9.3.1`, `1.9.3.0`, `1.9.2.4`, `1.9.2.3`, `1.9.2.2`, `1.9.2.1`, `1.9.2.0`,
+`1.9.1.1` and `1.9.1.0`.
 
 ## Installation
 
-Choose **one** of the installation options below that suits your case. Enable
-Slovenian locale in Magento admin at *System->Configuration->Locale Options->Locale*
+Choose **one** of the installation options below that suits your case.
+
+**Option 1: Magento Connect Manager**
+
+The preferred way to install this extension is to use the Magento Connect Manager
+from the Magento application administration and to directly upload the latest
+package archive [locale_sl_si-1.x.y.tgz][latest-release] in your application.
+That way possible future updates will be easier to manage.
+
+Latest package for download is available on [GitHub][latest-release] and
+[Magento Marketplace][marketplace].
+
+From the Magento administration back end visit *System->Magento Connect->Magento Connect Manager*
+and use the *Direct package file upload* forum to upload the downloaded tgz
+package.
+
+![Direct file upload](https://raw.githubusercontent.com/symfony-si/magento1-sl-si/master/img/magentoconnect.png)
+
+After the upload you should see the successful extension installation notice
+
+![Package installed](https://raw.githubusercontent.com/symfony-si/magento1-sl-si/master/img/magentoconnect_2.png)
+
+Enable Slovenian locale in Magento admin at *System->Configuration->Locale Options->Locale*
 and flush the Magento cache after installation to see changes.
 
-**Option 1: Magento Connect**
-
-Extension is available on [Magento Connect][magento-connect], which is the usual
-installation of Magento 1.x extensions. Copy the extension key from Magento
-Connect and use it in Magento administration at
-*System->Magento Connect->Magento Connect Manager*.
-
-![Magento Connect Manager](https://raw.githubusercontent.com/symfony-si/magento1-sl-si/master/img/magentoconnect.png)
-
-**Option 2: Manual Installation**
-
-in Magento Connect Manager you can also directly upload the latest package
-archive [locale_sl_si-1.x.y.tgz][latest-release], where `x` and `y` are the
-numbers of the latest release version:
-
-![Direct file upload](https://raw.githubusercontent.com/symfony-si/magento1-sl-si/master/img/magentoconnect_2.png)
-
-**Option 3: Composer**
+**Option 2: Composer**
 
 Magento 1 provides [Composer](https://getcomposer.org) integration by using
 [packages.firegento.com](http://packages.firegento.com/). Run the following in
@@ -57,9 +61,9 @@ command line:
 ```bash
 $ composer require symfony-si/magento1-sl-si
 ```
-And flush Magento cache.
+And flush the Magento cache.
 
-**Option 4: Modman**
+**Option 3: Modman**
 
 Another modular installation and extensions management option is
 [Modman](https://github.com/colinmollenhour/modman). Inside Magento root folder
@@ -173,25 +177,20 @@ Language pack consists of the following files/folders:
 
   `package.xml`
 
-
-## See Also
+## See also
 
 Magento 1.x manages its core translations through a series of CSV files located
 in `app/locale/`. By default there is an `en_US` folder with English translations.
 
 * [Add language to Magento 1.x](http://merch.docs.magento.com/ce/user_guide/store-operations/language-add.html)
-* [Magento Connect - I18N and L10N section](https://www.magentocommerce.com/magento-connect/customer-experience/internationalization-localization.html) - Magento Connect is a market place to share extensions.
 * [Official Magento community effort to centralize translations](https://crowdin.com/project/magento-1)
-* [Magento Connect - Create Your Extension](https://www.magentocommerce.com/magento-connect/create_your_extension/)
-
 
 ## Magento 2
 
-Looking for Magento 2? Slovenian translations for Magento 2 are also happening on
-[GitHub](https://github.com/symfony-si/magento2-sl_si).
+Looking for the current Magento 2? Slovenian translations for Magento 2 are also
+available on [GitHub](https://github.com/symfony-si/magento2-sl_si).
 
-
-## Contributing and License
+## Contributing and license
 
 Contributions and improvement suggestions are welcome. In case you find an issue
 with this extension, please [open issue](https://github.com/symfony-si/magento1-sl-si/issues).
@@ -201,7 +200,6 @@ provides more info how to help out.
 This repository is released under the [Open Software License v. 3.0][license].
 
 
-[magento-connect]: https://www.magentocommerce.com/magento-connect/catalog/product/view/id/30929/s/slovenian-translations/
 [latest-release]: https://github.com/symfony-si/magento1-sl-si/releases/latest
 [license]: https://github.com/symfony-si/magento1-sl-si/blob/master/LICENSE
 [lugos]: https://wiki.lugos.si/slovenjenje:pravila

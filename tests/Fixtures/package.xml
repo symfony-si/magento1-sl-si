@@ -8,7 +8,7 @@
     <extends/>
     <summary>Slovenian Translations</summary>
     <description>Slovenian (Slovenia) - sl_SI language pack for Magento 1.x Community Edition</description>
-    <notes>Slovenian translation files supporting Magento Community Editions up to 1.9.2.4. Translations include entire Magento Community edition - store's     front end, administration, emails and TinyMCE editor in administration forms. Translations follow Slovenian grammar and translation rules from Lugos.</notes>
+    <notes>Slovenian translation files supporting Magento Community Editions up to 1.9.2.4. Translations include entire Magento Community edition - store's front end, administration, emails and TinyMCE editor in administration forms. Translations follow Slovenian grammar and translation rules from Lugos.</notes>
     <authors><author><name>Peter Kokot</name><user>peterkokot</user><email>peterkokot@gmail.com</email></author></authors>
     <date>2016-05-13</date>
     <time>07:56:10</time>

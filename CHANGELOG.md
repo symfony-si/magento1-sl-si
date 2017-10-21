@@ -8,6 +8,12 @@ All notable changes to this project will be documented in this file. This projec
 
 * ...
 
+## [1.0.10] - 2017-10-21
+
+* Translations for Magento 1.9.3.6
+* Removal of Magento Connect in favor of the Magento Marketplace
+* Source code repository refactored
+
 ## [1.0.9] - 2017-06-06
 
 * Add Magento 1.9.3.3 translations

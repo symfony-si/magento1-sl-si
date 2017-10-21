@@ -3,7 +3,6 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use League\CommonMark\CommonMarkConverter;
 use SymfonySi\LocalePack\Package;
 
 try {
@@ -15,13 +14,6 @@ try {
     if (!preg_match("/^(\d+\.)?(\d+\.)?(\*|\d+)$/", $argv[1])) {
         throw new \Exception('Wrong version format. Must be a version number: x.y.z');
     }
-
-    // Create README HTML file from Markdown
-    $readmeMd = file_get_contents(__DIR__.'/../README.md');
-    $converter = new CommonMarkConverter();
-    $html = $converter->convertToHtml($readmeMd);
-    file_put_contents(__DIR__.'/../README.html', $html, LOCK_EX);
-    echo "README.html created.\n";
 
     // Create package
     $package = new Package([
