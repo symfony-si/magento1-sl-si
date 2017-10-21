@@ -2,9 +2,10 @@
 
 [![Build Status](https://travis-ci.org/symfony-si/magento1-sl-si.svg?branch=master)](https://travis-ci.org/symfony-si/magento1-sl-si)
 ![Progress](http://progressed.io/bar/100?title=completed)
-[![Magento Marketplace](https://img.shields.io/badge/Magento-Marketplace-orange.svg)][marketplace]
 [![Open Software License v. 3.0](https://img.shields.io/badge/License-OSL--3.0-blue.svg)][license]
 [![Latest Release](https://img.shields.io/github/release/symfony-si/magento1-sl-si.svg)][latest-release]
+
+![Magento Slovenian translations](https://raw.githubusercontent.com/symfony-si/magento1-sl-si/master/img/logo.png)
 
 * [About](#about)
 * [Installation](#installation)
@@ -36,8 +37,7 @@ from the Magento application administration and to directly upload the latest
 package archive [locale_sl_si-1.x.y.tgz][latest-release] in your application.
 That way possible future updates will be easier to manage.
 
-Latest package for download is available on [GitHub][latest-release] and
-[Magento Marketplace][marketplace].
+Latest package for download is available on [GitHub][latest-release].
 
 From the Magento administration back end visit *System->Magento Connect->Magento Connect Manager*
 and use the *Direct package file upload* forum to upload the downloaded tgz
@@ -199,10 +199,12 @@ provides more info how to help out.
 
 This repository is released under the [Open Software License v. 3.0][license].
 
+![Screenshot 1](https://raw.githubusercontent.com/symfony-si/magento1-sl-si/master/img/screenshot_1.png)
+![Screenshot 2](https://raw.githubusercontent.com/symfony-si/magento1-sl-si/master/img/screenshot_2.png)
+![Screenshot 3](https://raw.githubusercontent.com/symfony-si/magento1-sl-si/master/img/screenshot_3.png)
 
 [latest-release]: https://github.com/symfony-si/magento1-sl-si/releases/latest
 [license]: https://github.com/symfony-si/magento1-sl-si/blob/master/LICENSE
 [lugos]: https://wiki.lugos.si/slovenjenje:pravila
 [github-project]: https://github.com/symfony-si/magento1-sl-si
 [magento]: https://magento.com/
-[marketplace]: https://marketplace.magento.com/peterkokot-locale-sl-si.html

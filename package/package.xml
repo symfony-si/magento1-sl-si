@@ -1,22 +1,22 @@
 <?xml version="1.0"?>
 <package>
     <name>locale_sl_si</name>
-    <version>1.0.9</version>
+    <version>1.0.10</version>
     <stability>stable</stability>
     <license uri="https://github.com/symfony-si/magento1-sl-si/blob/master/LICENSE">OSL-3.0</license>
     <channel>community</channel>
     <extends/>
     <summary>Slovenian Translations</summary>
     <description>Slovenian (Slovenia) - sl_SI language pack for Magento 1.x Community Edition</description>
-    <notes>Slovenian translation files supporting Magento Community Editions up to 1.9.2.4. Translations include entire Magento Community edition - store's     front end, administration, emails and TinyMCE editor in administration forms. Translations follow Slovenian grammar and translation rules from Lugos.</notes>
+    <notes>Slovenian translation files supporting Magento Community Editions up to 1.9.2.4. Translations include entire Magento Community edition - store's front end, administration, emails and TinyMCE editor in administration forms. Translations follow Slovenian grammar and translation rules from Lugos.</notes>
     <authors><author><name>Peter Kokot</name><user>peterkokot</user><email>peterkokot@gmail.com</email></author></authors>
-    <date>2017-06-06</date>
-    <time>21:24:31</time>
+    <date>2017-10-21</date>
+    <time>22:35:59</time>
     <contents>
       <target name="magelocale">
         <dir name="sl_SI">
           <file name="Mage_AdminNotification.csv" hash="09d07d2f3f9168504cc411a1fb5444d3"/>
-          <file name="Mage_Adminhtml.csv" hash="cd0e6ae53b0ccbacdce1a1f23bb0a111"/>
+          <file name="Mage_Adminhtml.csv" hash="43df4eb2d412e2276baae71b8c2a9b9e"/>
           <file name="Mage_AmazonPayments.csv" hash="2e0e4b437d7964741028d610a10b3681"/>
           <file name="Mage_Api.csv" hash="0ae3e524f4764499c8dc5fa398b87dc7"/>
           <file name="Mage_Api2.csv" hash="8bb4a14a58f1df332d5f39b1c98f2fca"/>
@@ -137,7 +137,7 @@
         <dir name="Slovenian">
           <dir name="LocalePackSl">
             <dir name="etc">
-              <file name="config.xml" hash="c84479720ceee2e79acf1d1facc3f35b"/>
+              <file name="config.xml" hash="436b3074025376601795bff1a5c4ea50"/>
             </dir>
           </dir>
         </dir>

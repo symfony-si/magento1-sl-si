@@ -64,9 +64,3 @@ released by the following release process:
 
   Tag a new version on [GitHub](https://github.com/symfony-si/magento1-sl-si/releases),
   and attach `locale_sl_si-1.x.y.tgz` as a binary file.
-
-* **3. Magento Marketplace:**
-
-  Submit `locale_sl_si-1.x.y.tgz` to
-  [Magento Marketplace](https://marketplace.magento.com/peterkokot-locale-sl-si.html)
-  for review and publishing.

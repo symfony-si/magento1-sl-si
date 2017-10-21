@@ -1445,3 +1445,4 @@
 "JavaScript Template","Predloga JavaScript"
 "Symlinks are enabled. This may expose security risks. We strongly recommend to disable them.","Simbolične povezave so omogočene. To lahko izpostavi varnostno tveganje. Močno priporočamo, da se jih onemogoči."
 "You did not sign in correctly or your account is temporarily disabled.","Niste se ustrezno prijavili, ali pa je vaš račun začasno onemogočen."
+"Invalid template path used in layout update.","V posodobitvi postavitve je uporabljena neveljavna pot predloge."
