@@ -8,6 +8,10 @@ All notable changes to this project will be documented in this file. This projec
 
 * ...
 
+## [1.0.11] - 2018-01-15
+
+* Magento 1.9.3.7
+
 ## [1.0.10] - 2017-10-21
 
 * Translations for Magento 1.9.3.6

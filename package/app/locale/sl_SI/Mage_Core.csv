@@ -411,3 +411,5 @@
 "If present, this will be included in all Transactional Emails","Če je prisotno, bo vključeno v vseh transakcijskih e-poštah"
 "For Windows server only.","Samo za Windows strežnike."
 "Invalid image.","Neveljavna slika."
+"Logging from Mage::log(). File is located in {{base_dir}}/var/log. Allowed file extensions: log, txt, html, csv","Beleženje iz Mage::log(). Datoteka se nahaja v {{base_dir}}/var/log. Dovoljene končnice datotek: log, txt, html, csv"
+"Logging from Mage::logException(). File is located in {{base_dir}}/var/log. Allowed file extensions: log, txt, html, csv","Beleženje iz Mage::logException(). Datoteka se nahaja v {{base_dir}}/var/log. Dovoljene končnice datotek: log, txt, html, csv"
