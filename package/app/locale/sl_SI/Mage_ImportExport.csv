@@ -94,3 +94,5 @@
 "in rows","v vrsticah"
 "in rows:","v vrsticah:"
 "Disabling this setting can increase security risk.","Onemogočenje te nastavitve lahko poveča tveganje varnosti."
+"Incorrect entity type","Napačen tip entitete"
+"Invalid value in SKU column. HTML tags are not allowed","Neveljavna vrednost v stolpcu SKU. HTML značke niso dovoljene"

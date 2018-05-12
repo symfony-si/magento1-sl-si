@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file. This projec
 
 ## [UNREALEASED]
 
+* Magento 1.9.3.8 Slovenian translations
 * ...
 
 ## [1.0.11] - 2018-01-15
